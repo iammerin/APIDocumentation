@@ -1,0 +1,91 @@
+<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+  <div class="card-body">
+    <div class="float-right">
+      <button class="btn btn-outline-primary">Switch to example</button>
+    </div>
+    <div class="clearfix"></div>
+    <ol class="breadcrumb bg-light">
+      <li class="breadcrumb-item"><a href="#">mediapp</a></li>
+      <li class="breadcrumb-item"><a href="#">api</a></li>
+      <li class="breadcrumb-item"><a href="#">views</a></li>
+      <li class="breadcrumb-item active">ListApiView</li>
+    </ol>
+    <a href="#" class="d-block"><span class="text-dark">Console calls are routed via Sangalo</span><span class="float-right">Use browser&nbsp;<i class="fa fa-question-circle"></i></span></a>
+
+    <div class="">
+      <div class="api-url">
+        <span class="badge badge-dark d-inline-block">GET</span><code class="d-inline-block pl-2">http://localhost:8000/api/v1/user/list/</code>
+      </div>
+    </div>
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+      <li class="nav-item">
+        <a aria-controls="Parameters" aria-selected="false" class="nav-link active" data-toggle="tab" href="#Parameters" id="Parameters-tab" role="tab"><i class="fa fa-bell"></i>&nbsp;URL Parameters</a>
+      </li>
+      <li class="nav-item">
+        <a aria-controls="Headers" aria-selected="true" class="nav-link" data-toggle="tab" href="#Headers" id="Headers-tab" role="tab"><i class="fa fa-newspaper"></i>&nbsp;Headers</a>
+      </li>
+      <li class="nav-item">
+        <a aria-controls="Body" aria-selected="false" class="nav-link" data-toggle="tab" href="#Body" id="Body-tab" role="tab"><i class="fas fa-bullhorn"></i>&nbsp;Body</a>
+      </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+      <div aria-labelledby="Parameters-tab" class="tab-pane fade show active" id="Parameters" role="tabpanel">
+        <div class="col-md-12 py-3">
+          <table class="table table-responsive table-light">
+            <tbody>
+              <tr>
+                <td>
+                  <form action="#" method="post">
+                    <div class="form-check-inline">
+                      <input type="checkbox" name="checkbox" id="checkbox" class="form-check-input" />
+                    </div>
+                  </form>
+                </td>
+                <td>Since</td>
+                <td>Null</td>
+                <td><a class="text-danger" href="#!"><i class="fas fa-trash-alt"></i></a></td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="text-left">
+            <button class="btn btn-block text-left"><i class="fas fa-plus"></i>&nbsp;<code>Add new parameters</code></button>
+          </div>
+        </div>
+      </div>
+      <div aria-labelledby="Headers-tab" class="tab-pane fade" id="Headers" role="tabpanel">
+        <div class="col-md-12 py-3">
+          <div class="text-left">
+            <button class="btn btn-block text-left"><i class="fas fa-plus"></i>&nbsp;<code>Add new header</code></button>
+          </div>
+        </div>
+      </div>
+      <div aria-labelledby="Body-tab" class="tab-pane fade" id="Body" role="tabpanel">
+        <div class="col-md-12 py-3">
+          <form action="#" method="post">
+            <div class="form-group">
+              <textarea cols="40" rows="8" name="textarea" id="textarea" class="form-control"></textarea>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- bottom div -->
+    <div class="btn btn-group">
+      <!-- Example single danger button -->
+      <button class="btn btn-success-transparent">Show Code Example</button>
+      <div class="btn-group">
+        <button type="button" class="btn btn-danger btn-custom dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Production
+        </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Mock Server</a>
+          <a class="dropdown-item" href="#">Debugging Proxy</a>
+          <a class="dropdown-item" href="#">Production</a>
+        </div>
+      </div>
+      <button type="button" class="btn btn-success btn-custom">Call Resource</button>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,2471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="">
+    <meta name="author" content="Abhisek, Ronesh">
+
+    <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
+	<meta property="og:site_name" content="Sangalo API" /> <!-- website name -->
+	<meta property="og:site" content="https://Sangalo API.com" /> <!-- website link -->
+	<meta property="og:title" content="Sangalo API"/> <!-- title shown in the actual shared post -->
+	<meta property="og:description" content="Sangalo API " /> <!-- description shown in the actual shared post -->
+	<meta property="og:image" content="images/Sangalo API.png" /> <!-- image link, make sure it's jpg -->
+	<meta property="og:url" content="https:/google.com" /> <!-- where do you want your post to link to -->
+	<meta property="og:type" content="Website" />
+
+    <!-- Website Title -->
+    <title>API page</title>
+    
+    <!-- Styles -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/fontawesome-all.css" rel="stylesheet">
+	<link href="css/magnific-popup.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	
+	<!-- Favicon  -->
+    <link rel="icon" href="images/Sangalo API-logo.png">
+</head>
+
+<body class="app API_DOCUMENTATION extraLargeWindow docsPageView" data-gr-c-s-loaded="true" data-peoplemanagerready="1" id="application" style="width: 1600px; height: 789px;">
+	<noscript>
+	<div class="noscript">
+		<a href="#" title="API Home"><img alt="API Logo" class="noscript__logo" src="images/design.png"></a>
+		<div class="noscript__header">
+			<span class="noscript__jslogo"></span> JavaScript is disabled
+		</div>
+		<div class="noscript__help">
+			Please continue <a class="noscript__link" href="http://enable-javascript.com/">here</a> to find out how to<br>
+			enable it in your browser.
+		</div>
+	</div></noscript> <!-- Header -->
+	<div id="applicationHeaderContainer">
+		<div class="applicationHeader responsiveHeader" id="applicationHeader">
+			<a class="headerApiLogo" href="https://apiary.io"></a>
+			<div class="headerResponsiveContainer" id="headerResponsiveContainer">
+				<div class="headerLinks">
+					<ul class="headerLinksList">
+						<!-- Link -->
+						<li class="headerLinkContainer">
+							<a class="headerLink selected apiDocumentation" href="https://pandurangpatil.docs.apiary.io"><!-- Icon -->
+							 <!-- /Icon -->
+							 <!-- Text -->
+							 <span class="headerLinkText">Documentation</span> <!-- /Text --></a>
+						</li><!-- /Link -->
+						<!-- Link -->
+						<li class="headerLinkContainer">
+							<a class="headerLink inspector" href="https://pandurangpatil.docs.apiary.io/traffic"><!-- Icon -->
+							 <!-- /Icon -->
+							 <!-- Text -->
+							 <span class="headerLinkText">Inspector</span> <!-- /Text --></a>
+						</li><!-- /Link -->
+					</ul>
+				</div>
+			</div>
+			<div class="headerApiSwitch noSelect disabled js-ready">
+				<div class="headerApiSwitchToggleLine">
+					<!-- Icon -->
+					<div class="headerApiSwitchIconContainer"></div><!-- /Icon -->
+					<h3 class="row headerApiSwitchName">Sample API Documentation</h3><span class="row headerApiSwitchDescription"><!-- Owner -->
+					 <span class="headerApiSwitchOwner">Sangalo</span> <!-- Owner -->
+					 <span class="headerApiSwitchBullet">&nbsp;•&nbsp;</span> <!-- Subdomain -->
+					 <span class="headerApiSwitchSubdomain">Developed by Ayata</span> <!-- /Subdomain --></span>
+				</div><!-- /toggleLine -->
+				<!-- List -->
+				<div class="headerApiSwitchList hidden">
+					<!-- CreateApiButton -->
+					 <a class="headerCreateApiButton ajaxLink cacheable createApi" href="create-api"><span class="headerCreateApiIcon"></span> <span class="headerCreateApiText">Create New API Project</span></a> <!-- /CreateApiButton -->
+				</div><!-- /List -->
+			</div>
+			<div class="headerHelp">
+				<span class="headerHelpIcon"></span> <span class="headerHelpTooltip tooltip">Help</span>
+			</div>
+			<div class="headerSpacer"></div>
+			<div class="headerUser js-ready">
+				<div class="headerUserGuest">
+					<p class="headerUserGuestText">Ayata Powered Documentation</p>
+					<p class="headerUserGuestLogin"><a href="#">Sangalo</a> app link.</p>
+				</div>
+			</div>
+		</div>
+	</div><!-- /Header -->
+	<!-- Content -->
+	<div id="applicationContent" style="width: 1600px; height: 789px;">
+		<div class="js-scrolling-done" id="documentation">
+			<!-- TocColumn -->
+			<div class="tocColumn customScrollbar customScrollbarLight" id="documentationTocColumn" style="width: 200px; height: 709px; transform: translateY(80px);">
+				<div class="tocColumnContainer">
+					<!-- Content -->
+					<div class="tocColumnContent">
+						<div class="row tocColumnTools">
+							<!-- API Blueprint -->
+							<div class="row tocColumnTool tocColumnTool--download">
+								<span class="tocColumnToolIcon tocColumnToolIcon--download"></span> <a class="row tocColumnToolLink" href="https://pandurangpatil.docs.apiary.io/api-description-document">Download <span class="row tocColumnToolSubtext">API Blueprint</span></a>
+							</div><!-- /API Blueprint -->
+							<!-- GitHub -->
+							<!-- /GitHub -->
+						</div>
+						<div class="tocColumnSection">
+							<!-- Title -->
+							<div class="tocColumnTitle noSelect">
+								<h3 class="tocColumnTitleText">Introduction</h3>
+							</div><!-- /Title -->
+							<!-- Items -->
+							<div class="tocColumnSectionItems" id="spy">
+								<ul>
+									<li class="tocColumnItem noSelect">
+										<!-- Container -->
+										<div class="tocColumnItemContainer">
+											<a class="tocColumnItemText" href="#introduction/allowed-https-requests">Allowed HTTPs requests:</a>
+										</div><!-- /Container -->
+										<!-- Subitems -->
+										<ul class="tocColumnSubitems hidden"></ul><!-- /subitems -->
+									</li>
+									<li class="tocColumnItem noSelect">
+										<!-- Container -->
+										<div class="tocColumnItemContainer">
+											<a class="tocColumnItemText" href="#introduction/description-of-usual-server-responses">Description Of Usual Server Responses:</a>
+										</div><!-- /Container -->
+										<!-- Subitems -->
+										<ul class="tocColumnSubitems hidden"></ul><!-- /subitems -->
+									</li>
+									<li class="tocColumnItem noSelect">
+										<!-- Container -->
+										<div class="tocColumnItemContainer">
+											<a class="tocColumnItemText" href="#introduction/some-sample">Some sample</a>
+										</div><!-- /Container -->
+										<!-- Subitems -->
+										<ul class="tocColumnSubitems hidden"></ul><!-- /subitems -->
+									</li>
+									<li class="tocColumnItem noSelect">
+										<!-- Container -->
+										<div class="tocColumnItemContainer">
+											<a class="tocColumnItemText" href="#introduction/table-sample">Table sample</a>
+										</div><!-- /Container -->
+										<!-- Subitems -->
+										<ul class="tocColumnSubitems hidden"></ul><!-- /subitems -->
+									</li>
+									<li class="tocColumnItem noSelect">
+										<!-- Container -->
+										<div class="tocColumnItemContainer">
+											<a class="tocColumnItemText" href="#introduction/code-sample">Code Sample</a>
+										</div><!-- /Container -->
+										<!-- Subitems -->
+										<ul class="tocColumnSubitems hidden"></ul><!-- /subitems -->
+									</li>
+								</ul>
+							</div><!-- /Items -->
+						</div>
+						<div class="tocColumnSection">
+							<!-- Title -->
+							<div class="tocColumnTitle noSelect">
+								<h3 class="tocColumnTitleText">Reference</h3>
+							</div><!-- /Title -->
+							<!-- Items -->
+							<div class="tocColumnSectionItems">
+								<ul>
+									<li class="tocColumnItem noSelect hasSubitems">
+										<!-- Container -->
+										<div class="tocColumnItemContainer">
+											<a class="tocColumnItemText" href="#reference/user">User</a>
+										</div><!-- /Container -->
+										<!-- Subitems -->
+										<ul class="tocColumnSubitems hidden">
+											<li class="tocColumnSubitem noSelect">
+												<!-- Text -->
+												 <a class="tocColumnSubitemText" href="#reference/user/user-collection">User Collection</a> <!-- /Text -->
+											</li>
+											<li class="tocColumnSubitem noSelect">
+												<!-- Text -->
+												 <a class="tocColumnSubitemText" href="#reference/user/user">User</a> <!-- /Text -->
+											</li>
+										</ul><!-- /subitems -->
+									</li>
+								</ul>
+							</div><!-- /Items -->
+						</div>
+					</div><!-- /Content -->
+				</div>
+			</div><!-- /TocColumn -->
+			<!-- HumanColumnHeader -->
+			<div class="humanColumnHeader hidden" id="documentationHumanColumnHeader" style="width: 1400px; transform: translateX(200px) translateY(80px);">
+				<div class="humanColumnHeaderContainer">
+					<!-- Button -->
+					<div class="humanColumnHeaderButton">
+						<span class="headerButtonIcon"></span>
+					</div><!-- /Button -->
+					<!-- Breadcrumb -->
+					<div class="humanColumnHeaderBreadcrumb">
+						<ul class="headerBreadcrumb">
+							<li class="headerBreadcrumbItem section">Introduction</li>
+							<li class="headerBreadcrumbItem item hidden">Allowed HTTPs requests:</li>
+							<li class="headerBreadcrumbItem subitem hidden">User Collection</li>
+						</ul>
+					</div><!-- /Breadcrumb -->
+				</div>
+			</div><!-- /HumanColumnHeader -->
+			<!-- HumanColumn -->
+			<div class="humanColumn customScrollbar customScrollbarLight scrollspy-API" id="documentationHumanColumn" style="width: 1400px; height: 709px; transform: translateX(200px) translateY(80px);" tabindex="1" data-spy="scroll" data-target="#spy">
+				<div class="humanColumnContents" style="width: 700px; padding-bottom: 789px; transform: translateX(350px);">
+					<!-- Name -->
+					<h1 class="humanColumnApiName">Sample API Documentation</h1><!-- /Name -->
+					<div class="humanColumnSection humanColumnContentsIntroduction">
+						<div class="humanColumnSection humanColumnSectionIntroduction">
+							<!-- Title -->
+							<div class="humanColumnTitle">
+								<h3 class="humanColumnTitleText">Introduction</h3>
+							</div><!-- /Title -->
+							<!-- Description -->
+							<div class="humanColumnApiDescription markdown formalTheme">
+								<div id="introduction/allowed-https-requests">
+									<p>Sample api documentation for sample project.</p>
+									<h1>Allowed HTTPs requests:</h1>
+									<pre>PUT     : To create resource 
+									POST    : Update resource
+									GET     : Get a resource or list of resources
+									DELETE  : To delete resource
+									</pre>
+								</div>
+								<div id="introduction/description-of-usual-server-responses">
+								<h1>Description Of Usual Server Responses:</h1>
+									<ul>
+										<li>
+											<p>200 <code>OK</code> - the request was successful (some API calls may return 201 instead).</p>
+										</li>
+										<li>
+											<p>201 <code>Created</code> - the request was successful and a resource was created.</p>
+										</li>
+										<li>
+											<p>204 <code>No Content</code> - the request was successful but there is no representation to return (i.e. the response is empty).</p>
+										</li>
+										<li>
+											<p>400 <code>Bad Request</code> - the request could not be understood or was missing required parameters.</p>
+										</li>
+										<li>
+											<p>401 <code>Unauthorized</code> - authentication failed or user doesn't have permissions for requested operation.</p>
+										</li>
+										<li>
+											<p>403 <code>Forbidden</code> - access denied.</p>
+										</li>
+										<li>
+											<p>404 <code>Not Found</code> - resource was not found.</p>
+										</li>
+										<li>
+											<p>405 <code>Method Not Allowed</code> - requested method is not supported for resource.</p>
+										</li>
+									</ul>
+								</div>
+								<div id="introduction/some-sample">
+									<h1>Some sample</h1>
+									<p>Test sample | test column two First column sadf asdfads | sfsdsadf</p>
+									<hr>
+									<p>test one | Another column</p>
+									<hr>
+								</div>
+								<div id="introduction/table-sample">
+									<h1>Table sample</h1>
+									<table>
+										<tbody>
+											<tr>
+												<td>First Column</td>
+												<td>Second Column</td>
+											</tr>
+											<tr>
+												<td>First Column</td>
+												<td>Second Column</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+								<div id="introduction/code-sample">
+									<h1>Code Sample</h1>
+									<pre>    Some code here
+									</pre>
+								</div>
+							</div><!-- /Description -->
+						</div>
+					</div>
+					<div class="humanColumnContentsAuth"></div>
+					<div class="humanColumnSection humanColumnContentsReference">
+						<div class="humanColumnSection humanColumnSectionReference">
+							<!-- Title -->
+							<div class="humanColumnTitle">
+								<h3 class="humanColumnTitleText">Reference</h3>
+							</div><!-- /Title -->
+							<div class="resourceGroups">
+								<div class="resourceGroup">
+									<!-- Name -->
+									<div id="reference/user">
+										<h1 class="resourceGroupName">User</h1><!-- /Name -->
+									<!-- Description -->
+									<div class="resourceGroupDescription markdown formalTheme">
+										<p>Represents user details.</p>
+										<hr>
+										<p><strong>User attributes:</strong></p>
+										<ul>
+											<li>
+												<p>id <code>(Number)</code> : unique identifier.</p>
+											</li>
+											<li>
+												<p>fname <code>(String)</code> : First Name.</p>
+											</li>
+											<li>
+												<p>lname <code>(String)</code> : Last Name.</p>
+											</li>
+											<li>
+												<p>email <code>(String)</code> : email id of the user.</p>
+											</li>
+										</ul>
+										<hr>
+									</div><!-- /Description -->
+									<!-- Resources -->
+									<div class="resources">
+										<div class="resource">
+											<!-- Name -->
+											<div id="reference/user/user-collection">
+											<h2 class="resourceName">User Collection</h2><!-- /Name -->
+											<!-- Parameters -->
+											<div class="row resourceParameters hidden"></div><!-- /Parameters -->
+											<!-- Attributes -->
+											<div class="row resourceAttributes hidden">
+												<div class="row attributesTitle">
+													<h3 class="row attributesTitleText">Attributes</h3>
+												</div>
+												<div class="row attributes"></div>
+												<div class="row attributesKit hidden"></div>
+											</div><!-- /Attributes -->
+											<!-- Description -->
+											<!-- /Description -->
+											<!-- Actions -->
+											<div class="resourceActions">
+												<div class="action get">
+													<!-- Invitation -->
+													<div class="actionInvitation get">
+														<a class="actionInvitationRow" href="#">
+														<div class="actionTag get"></div><!-- Name -->
+														<h4 class="actionName">List all users</h4><!-- /Name -->
+														<!-- Icon -->
+														<div class="actionInvitationIcon"></div><!-- /Icon --></a>
+													</div><!-- Invitation -->
+													<!-- Relation -->
+													<!-- /Relation -->
+													<!-- Parameters -->
+													<div class="row actionParameters hidden"></div><!-- /Parameters -->
+													<!-- Authentication -->
+													<!-- /Authentication -->
+													<!-- Description -->
+													<div class="actionDescription markdown formalTheme">
+														<p>Retrieve paginated list of users.</p>
+													</div><!-- /Description -->
+												</div>
+												<div class="action put">
+													<!-- Invitation -->
+													<div class="actionInvitation put">
+														<a class="actionInvitationRow" href="#">
+														<div class="actionTag put"></div><!-- Name -->
+														<h4 class="actionName">Create a User</h4><!-- /Name -->
+														<!-- Icon -->
+														<div class="actionInvitationIcon"></div><!-- /Icon --></a>
+													</div><!-- Invitation -->
+													<!-- Relation -->
+													<!-- /Relation -->
+													<!-- Parameters -->
+													<div class="row actionParameters hidden"></div><!-- /Parameters -->
+													<!-- Authentication -->
+													<!-- /Authentication -->
+													<!-- Description -->
+													<!-- /Description -->
+												</div>
+											</div><!-- /Actions -->
+										</div>
+										</div>
+										<div class="resource">
+											<!-- Name -->
+											<div id="reference/user/user">
+											<h2 class="resourceName">User</h2><!-- /Name -->
+											<!-- Parameters -->
+											<div class="row resourceParameters hidden"></div><!-- /Parameters -->
+											<!-- Attributes -->
+											<div class="row resourceAttributes hidden">
+												<div class="row attributesTitle">
+													<h3 class="row attributesTitleText">Attributes</h3>
+												</div>
+												<div class="row attributes"></div>
+												<div class="row attributesKit hidden"></div>
+											</div><!-- /Attributes -->
+											<!-- Description -->
+											<div class="resourceDescription markdown formalTheme">
+												<p>A single User object with all its details</p>
+											</div><!-- /Description -->
+											<!-- Actions -->
+											<div class="resourceActions">
+												<div class="action get">
+													<!-- Invitation -->
+													<div class="actionInvitation get">
+														<a class="actionInvitationRow" href="/reference/user/user/retrieve-a-user">
+														<div class="actionTag get"></div><!-- Name -->
+														<h4 class="actionName">Retrieve a User</h4><!-- /Name -->
+														<!-- Icon -->
+														<div class="actionInvitationIcon"></div><!-- /Icon --></a>
+													</div><!-- Invitation -->
+													<!-- Relation -->
+													<!-- /Relation -->
+													<!-- Parameters -->
+													<div class="row actionParameters hidden"></div><!-- /Parameters -->
+													<!-- Authentication -->
+													<!-- /Authentication -->
+													<!-- Description -->
+													<!-- /Description -->
+												</div>
+												<div class="action post">
+													<!-- Invitation -->
+													<div class="actionInvitation post">
+														<a class="actionInvitationRow" href="/reference/user/user/update-a-user">
+														<div class="actionTag post"></div><!-- Name -->
+														<h4 class="actionName">Update a User</h4><!-- /Name -->
+														<!-- Icon -->
+														<div class="actionInvitationIcon"></div><!-- /Icon --></a>
+													</div><!-- Invitation -->
+													<!-- Relation -->
+													<!-- /Relation -->
+													<!-- Parameters -->
+													<div class="row actionParameters hidden"></div><!-- /Parameters -->
+													<!-- Authentication -->
+													<!-- /Authentication -->
+													<!-- Description -->
+													<div class="actionDescription markdown formalTheme">
+														<p>Update user details</p>
+													</div><!-- /Description -->
+												</div>
+												<div class="action delete">
+													<!-- Invitation -->
+													<div class="actionInvitation delete">
+														<a class="actionInvitationRow" href="/reference/user/user/remove-a-user">
+														<div class="actionTag delete"></div><!-- Name -->
+														<h4 class="actionName">Remove a User</h4><!-- /Name -->
+														<!-- Icon -->
+														<div class="actionInvitationIcon"></div><!-- /Icon --></a>
+													</div><!-- Invitation -->
+													<!-- Relation -->
+													<!-- /Relation -->
+													<!-- Parameters -->
+													<div class="row actionParameters hidden"></div><!-- /Parameters -->
+													<!-- Authentication -->
+													<!-- /Authentication -->
+													<!-- Description -->
+													<!-- /Description -->
+												</div>
+											</div><!-- /Actions -->
+										</div>
+										</div>
+									</div><!-- /Resources -->
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="humanColumnSection humanColumnContentsDataStructures"></div>
+					<div class="humanColumnSeed">
+						<!-- react-empty: 1 -->
+					</div>
+				</div>
+			</div><!-- /HumanColumn -->
+			<!-- MachineColumnHeader -->
+			<div class="machineColumnHeader" id="documentationMachineColumnHeader" style="width: 700px; transform: translateX(1600px) translateY(80px);">
+				<div class="row machineColumnHeaderContainer noSelect">
+					<!-- Back -->
+					<div class="columnHeaderButton columnHeaderBackButton">
+						<span class="icon backward"></span>
+					</div><!-- /Back -->
+					<!-- ConsoleButton -->
+					<div class="columnHeaderButton columnHeaderConsoleButton">
+						<!-- BlankSlate -->
+						<div class="blankSlateTooltip hidden">
+							<p class="blankSlateTooltipText">Switch between example and interactive console for customized API calls.</p>
+						</div><!-- /BlankSlate -->
+						<div class="button noSelect buttonDefault flat">
+							<div class="buttonRow">
+								<!-- Text -->
+								<div class="buttonColumn buttonTextColumn">
+									<span class="buttonText">Switch to Console</span>
+								</div><!-- /Text -->
+							</div>
+						</div>
+					</div><!-- /ConsoleButton -->
+				</div>
+			</div><!-- /MachineColumnHeader -->
+			<!-- MachineColumn -->
+			<div class="machineColumn" id="documentationMachineColumn" style="width: 700px; height: 709px; transform: translateX(1600px) translateY(80px);">
+				<div class="row machineColumnContainer">
+					<div class="row machineColumnContents customScrollbar customScrollbarMachineColumn" style="width: 700px; height: 629px;">
+						<!-- BlankSlate -->
+						<div class="machineColumnBlankSlate">
+							<h3 class="blankSlateTitle">No action selected</h3>
+							<p class="blankSlateText">You can try selecting ‘<span class="blankSlateActionExample">List all users</span>’ from the left column.</p>
+							<div class="blankSlateLink">
+								<a class="blankSlateLinkText" href="https://help.apiary.io/tools/interactive-documentation/" target="_blank">Learn more about using the documentation.</a>
+							</div>
+						</div><!-- /BlankSlate -->
+						<div class="row machineColumnContent hidden">
+							<!-- Breadcrumbs -->
+							<div class="row machineColumnBreadcrumbsContainer">
+								<div class="row machineColumnBreadcrumbs">
+									<div class="machineColumnBreadcrumbLine">
+										<!-- Resource Group -->
+										 <a class="machineColumnBreadcrumb machineColumnResourceGroupName" href="/reference/user">User</a> <span class="machineColumnBreadcrumbsSlash">/</span> <!-- /Resource Group -->
+										 <!-- Resource -->
+										 <a class="machineColumnBreadcrumb machineColumnResourceName" href="/reference/user/user">User</a> <span class="machineColumnBreadcrumbsSlash">/</span> <!-- /Resource -->
+										 <!-- Action -->
+										 <a class="machineColumnBreadcrumb machineColumnActionName" href="/reference/user/user/retrieve-a-user">Retrieve a User</a> <!-- /Action -->
+									</div>
+								</div>
+							</div><!-- /Breadcrumbs -->
+							<!-- Destination -->
+							<div class="row machineColumnDestination">
+								<div class="destination">
+									<!-- HTTP Method --><span class="destinationMethod get">GET</span><!-- /HTTP Method --><!-- Protocol --><span class="destinationProtocol">http://</span><!-- /Protocol --><!-- Host --><span class="destinationHost">sample.pandurangpatil.com</span><!-- /Host --><!-- UriTemplate --><span class="destinationUriTemplate"><span class="uriTemplate"><span class="uriTemplateSlash">/</span>users<span class="uriTemplateSlash">/</span><span class="uriTemplateVariable">id</span></span></span><!-- /UriTemplate -->
+								</div>
+							</div><!-- /Destination -->
+							<!-- Relation -->
+							<!-- /Relation -->
+							<!-- Parameters -->
+							<div class="row machineColumnParameters">
+								<div class="parameters lightTheme">
+									<!-- Title -->
+									<h3 class="row parametersTitle">Parameters</h3><!-- /Title -->
+									<!-- List -->
+									<ul class="parametersList">
+										<li class="parameter required">
+											<div class="parameterRow">
+												<!-- Key -->
+												<div class="parameterColumn parameterKeyColumn">
+													<div class="parameterKey">
+														id
+													</div>
+												</div><!-- /Key -->
+												<!-- Requirement -->
+												<div class="parameterColumn parameterRequirementColumn">
+													<div class="parameterRequirement">
+														<span class="parameterIcon"></span> <span class="tooltip">Required</span>
+													</div>
+												</div><!-- /Requirement -->
+												<!-- Description -->
+												<div class="parameterColumn parameterDescriptionColumn">
+													<!-- Description -->
+													<div class="parameterDescription markdown lightTheme">
+														<p>Numeric <code>id</code> of the User to perform action with.</p>
+													</div><!-- /Description -->
+													<!-- Example -->
+													<em class="parameterExampleText">Example:&nbsp;<code class="parameterExampleValue">1</code>.</em> <!-- /Example -->
+													 <!-- Default -->
+													 <!-- /Default -->
+													 <!-- Values -->
+													 <!-- /Values -->
+												</div><!-- /Description -->
+												<!-- Type -->
+												<div class="parameterColumn parameterTypeColumn">
+													<div class="parameterType">
+														Number
+													</div>
+												</div><!-- /Type -->
+											</div>
+										</li>
+									</ul><!-- /List -->
+								</div>
+							</div><!-- /Parameters -->
+							<!-- Attributes -->
+							<div class="row machineColumnAttributes hidden">
+								<div class="row attributesTitle">
+									<h3 class="row attributesTitleText">Attributes</h3>
+								</div>
+								<div class="row attributes"></div>
+								<div class="row attributesKit hidden"></div>
+							</div><!-- /Attributes -->
+							<div class="machineColumnRequest">
+								<!-- Title -->
+								<div class="row machineColumnTitle">
+									<h3 class="row machineColumnTitleText">Request</h3>
+								</div><!-- /Title -->
+								<!-- Content -->
+								<div class="machineColumnRequestContent">
+									<!-- Attributes -->
+									<div class="row machineColumnRequestAttributes hidden">
+										<div class="row attributesTitle">
+											<h3 class="row attributesTitleText">Attributes</h3>
+										</div>
+										<div class="row attributes"></div>
+										<div class="row attributesKit hidden"></div>
+									</div><!-- /Attributes -->
+									<!-- Description -->
+									<!-- /Description -->
+									<!-- Schema -->
+									<div class="row machineColumnRequestSchema"></div><!-- /Schema -->
+									<!-- Name -->
+									<!-- /Name -->
+									<!-- Controls -->
+									<div class="row machineColumnRequestControls">
+										<div class="machineColumnRequestHostsSelect">
+											<div class="row hostsSelect">
+												<div class="button selectButton noSelect buttonDefault collapsed">
+													<div class="buttonRow">
+														<!-- Text -->
+														<!-- /Text -->
+														<!-- Value -->
+														<div class="buttonColumn selectButtonValueColumn">
+															<span class="selectButtonValue">Production</span>
+														</div><!-- /Value -->
+														<!-- Arrow -->
+														<div class="buttonColumn selectButtonArrowColumn">
+															<span class="selectButtonArrow"></span>
+														</div><!-- /Arrow -->
+													</div>
+												</div>
+												<ul class="dropdownList noSelect customScrollbar customScrollbarDarkDropdown hidden">
+													<li class="dropdownListItem dropDownListItemMockServer">
+														<span class="dropdownListItemLink"><!-- Icon -->
+														 <!-- /Icon --></span>
+														<div class="dropdownListItemTexts">
+															<span class="dropdownListItemLink"><!-- UpperText -->
+															 <!-- /UpperText -->
+															 <!-- Text -->
+															 <span class="dropdownListItemText">Mock Server</span> <!-- /Text --></span>
+														</div>
+													</li>
+													<li class="dropdownListItem dropDownListItemDebuggingProxy">
+														<span class="dropdownListItemLink"><!-- Icon -->
+														 <!-- /Icon --></span>
+														<div class="dropdownListItemTexts">
+															<span class="dropdownListItemLink"><!-- UpperText -->
+															 <!-- /UpperText -->
+															 <!-- Text -->
+															 <span class="dropdownListItemText">Debugging Proxy</span> <!-- /Text --></span>
+														</div>
+													</li>
+													<li class="dropdownListItem dropDownListItemProduction">
+														<span class="dropdownListItemLink"><!-- Icon -->
+														 <!-- /Icon --></span>
+														<div class="dropdownListItemTexts">
+															<span class="dropdownListItemLink"><!-- UpperText -->
+															 <!-- /UpperText -->
+															 <!-- Text -->
+															 <span class="dropdownListItemText">Production</span> <!-- /Text --></span>
+														</div>
+													</li>
+												</ul>
+											</div>
+										</div>
+										<div class="machineColumnRequestCodeExamplesSelect">
+											<div class="row codeExamplesSelect">
+												<div class="button selectButton noSelect buttonDefault collapsed">
+													<div class="buttonRow">
+														<!-- Text -->
+														<!-- /Text -->
+														<!-- Value -->
+														<div class="buttonColumn selectButtonValueColumn">
+															<span class="selectButtonValue">Raw</span>
+														</div><!-- /Value -->
+														<!-- Arrow -->
+														<div class="buttonColumn selectButtonArrowColumn">
+															<span class="selectButtonArrow"></span>
+														</div><!-- /Arrow -->
+													</div>
+												</div>
+												<ul class="dropdownList noSelect customScrollbar customScrollbarDarkDropdown hidden">
+													<li class="dropdownListItem">
+														<span class="dropdownListItemLink"><!-- Icon -->
+														 <!-- /Icon --></span>
+														<div class="dropdownListItemTexts">
+															<span class="dropdownListItemLink"><!-- UpperText -->
+															 <!-- /UpperText -->
+															 <!-- Text -->
+															 <span class="dropdownListItemText">Raw</span> <!-- /Text --></span>
+														</div>
+													</li>
+													<li class="dropdownListItem">
+														<span class="dropdownListItemLink"><!-- Icon -->
+														 <!-- /Icon --></span>
+														<div class="dropdownListItemTexts">
+															<span class="dropdownListItemLink"><!-- UpperText -->
+															 <!-- /UpperText -->
+															 <!-- Text -->
+															 <span class="dropdownListItemText">cURL</span> <!-- /Text --></span>
+														</div>
+													</li>
+													<li class="dropdownListItem">
+														<span class="dropdownListItemLink"><!-- Icon -->
+														 <!-- /Icon --></span>
+														<div class="dropdownListItemTexts">
+															<span class="dropdownListItemLink"><!-- UpperText -->
+															 <!-- /UpperText -->
+															 <!-- Text -->
+															 <span class="dropdownListItemText">Java</span> <!-- /Text --></span>
+														</div>
+													</li>
+													<li class="dropdownListItem">
+														<span class="dropdownListItemLink"><!-- Icon -->
+														 <!-- /Icon --></span>
+														<div class="dropdownListItemTexts">
+															<span class="dropdownListItemLink"><!-- UpperText -->
+															 <!-- /UpperText -->
+															 <!-- Text -->
+															 <span class="dropdownListItemText">JavaScript</span> <!-- /Text --></span>
+														</div>
+													</li>
+													<li class="dropdownListItem">
+														<span class="dropdownListItemLink"><!-- Icon -->
+														 <!-- /Icon --></span>
+														<div class="dropdownListItemTexts">
+															<span class="dropdownListItemLink"><!-- UpperText -->
+															 <!-- /UpperText -->
+															 <!-- Text -->
+															 <span class="dropdownListItemText">Node.js</span> <!-- /Text --></span>
+														</div>
+													</li>
+													<li class="dropdownListItem">
+														<span class="dropdownListItemLink"><!-- Icon -->
+														 <!-- /Icon --></span>
+														<div class="dropdownListItemTexts">
+															<span class="dropdownListItemLink"><!-- UpperText -->
+															 <!-- /UpperText -->
+															 <!-- Text -->
+															 <span class="dropdownListItemText">Perl</span> <!-- /Text --></span>
+														</div>
+													</li>
+													<li class="dropdownListItem">
+														<span class="dropdownListItemLink"><!-- Icon -->
+														 <!-- /Icon --></span>
+														<div class="dropdownListItemTexts">
+															<span class="dropdownListItemLink"><!-- UpperText -->
+															 <!-- /UpperText -->
+															 <!-- Text -->
+															 <span class="dropdownListItemText">Python</span> <!-- /Text --></span>
+														</div>
+													</li>
+													<li class="dropdownListItem">
+														<span class="dropdownListItemLink"><!-- Icon -->
+														 <!-- /Icon --></span>
+														<div class="dropdownListItemTexts">
+															<span class="dropdownListItemLink"><!-- UpperText -->
+															 <!-- /UpperText -->
+															 <!-- Text -->
+															 <span class="dropdownListItemText">PHP</span> <!-- /Text --></span>
+														</div>
+													</li>
+													<li class="dropdownListItem">
+														<span class="dropdownListItemLink"><!-- Icon -->
+														 <!-- /Icon --></span>
+														<div class="dropdownListItemTexts">
+															<span class="dropdownListItemLink"><!-- UpperText -->
+															 <!-- /UpperText -->
+															 <!-- Text -->
+															 <span class="dropdownListItemText">Ruby</span> <!-- /Text --></span>
+														</div>
+													</li>
+													<li class="dropdownListItem">
+														<span class="dropdownListItemLink"><!-- Icon -->
+														 <!-- /Icon --></span>
+														<div class="dropdownListItemTexts">
+															<span class="dropdownListItemLink"><!-- UpperText -->
+															 <!-- /UpperText -->
+															 <!-- Text -->
+															 <span class="dropdownListItemText">Go</span> <!-- /Text --></span>
+														</div>
+													</li>
+													<li class="dropdownListItem">
+														<span class="dropdownListItemLink"><!-- Icon -->
+														 <!-- /Icon --></span>
+														<div class="dropdownListItemTexts">
+															<span class="dropdownListItemLink"><!-- UpperText -->
+															 <!-- /UpperText -->
+															 <!-- Text -->
+															 <span class="dropdownListItemText">C#</span> <!-- /Text --></span>
+														</div>
+													</li>
+													<li class="dropdownListItem">
+														<span class="dropdownListItemLink"><!-- Icon -->
+														 <!-- /Icon --></span>
+														<div class="dropdownListItemTexts">
+															<span class="dropdownListItemLink"><!-- UpperText -->
+															 <!-- /UpperText -->
+															 <!-- Text -->
+															 <span class="dropdownListItemText">Visual Basic</span> <!-- /Text --></span>
+														</div>
+													</li>
+													<li class="dropdownListItem">
+														<span class="dropdownListItemLink"><!-- Icon -->
+														 <!-- /Icon --></span>
+														<div class="dropdownListItemTexts">
+															<span class="dropdownListItemLink"><!-- UpperText -->
+															 <!-- /UpperText -->
+															 <!-- Text -->
+															 <span class="dropdownListItemText">Groovy</span> <!-- /Text --></span>
+														</div>
+													</li>
+													<li class="dropdownListItem">
+														<span class="dropdownListItemLink"><!-- Icon -->
+														 <!-- /Icon --></span>
+														<div class="dropdownListItemTexts">
+															<span class="dropdownListItemLink"><!-- UpperText -->
+															 <!-- /UpperText -->
+															 <!-- Text -->
+															 <span class="dropdownListItemText">Objective-C</span> <!-- /Text --></span>
+														</div>
+													</li>
+													<li class="dropdownListItem">
+														<span class="dropdownListItemLink"><!-- Icon -->
+														 <!-- /Icon --></span>
+														<div class="dropdownListItemTexts">
+															<span class="dropdownListItemLink"><!-- UpperText -->
+															 <!-- /UpperText -->
+															 <!-- Text -->
+															 <span class="dropdownListItemText">Swift</span> <!-- /Text --></span>
+														</div>
+													</li>
+												</ul>
+											</div>
+										</div>
+										<div class="machineColumnRequestSpacer"></div>
+										<div class="button noSelect buttonDefault machineColumnRequestTryButton">
+											<div class="buttonRow">
+												<!-- Text -->
+												<div class="buttonColumn buttonTextColumn">
+													<span class="buttonText">Try</span>
+												</div><!-- /Text -->
+											</div>
+										</div>
+									</div><!-- /Controls -->
+									<div class="request">
+										<div class="languageExample">
+											<div class="rawExampleContainer">
+												<div class="rawExample darkTheme" data-reactroot=""></div>
+											</div>
+										</div>
+									</div>
+								</div><!-- /Content -->
+							</div>
+							<div class="machineColumnResponse">
+								<!-- Title -->
+								<div class="row machineColumnTitle">
+									<h3 class="row machineColumnTitleText">Response</h3>
+								</div><!-- /Title -->
+								<!-- Content -->
+								<div class="machineColumnResponseContent">
+									<!-- Attributes -->
+									<div class="row machineColumnResponseAttributes hidden">
+										<div class="row attributesTitle">
+											<h3 class="row attributesTitleText">Attributes</h3>
+										</div>
+										<div class="row attributes"></div>
+										<div class="row attributesKit hidden"></div>
+									</div><!-- /Attributes -->
+									<!-- Description -->
+									<!-- /Description -->
+									<!-- Schema -->
+									<div class="row machineColumnResponseSchema"></div><!-- /Schema -->
+									<div class="response">
+										<!-- StatusCode -->
+										<div class="responseStatusCode">
+											200
+										</div><!-- /StatusCode -->
+										<div class="languageExample">
+											<div class="rawExampleContainer">
+												<div class="rawExample darkTheme" data-reactroot="">
+													<ul class="rawExampleSection rawExampleHeaders ps-container ps-theme-default" data-ps-id="ad49a67e-d83a-08ff-82e3-6cbebd3dd2d5">
+														<li style="list-style: none; display: inline">
+															<div class="rawExampleHeaderLabel">
+																<span>Headers</span>
+															</div>
+														</li>
+														<li class="rawExampleHeader"><span class="rawExampleHeaderKey">Content-Type</span><span class="rawExampleHeaderSeparator">:</span><span class="rawExampleHeaderValue">application/json</span></li>
+														<li class="rawExampleHeader"><span class="rawExampleHeaderKey">X-My-Header</span><span class="rawExampleHeaderSeparator">:</span><span class="rawExampleHeaderValue">The Value</span></li>
+														<li style="list-style: none; display: inline">
+															<div class="ps-scrollbar-x-rail" style="left: 0px; bottom: 0px;">
+																<div class="ps-scrollbar-x" style="left: 0px; width: 0px;" tabindex="0"></div>
+															</div>
+															<div class="ps-scrollbar-y-rail" style="top: 0px; right: 0px;">
+																<div class="ps-scrollbar-y" style="top: 0px; height: 0px;" tabindex="0"></div>
+															</div>
+														</li>
+													</ul>
+													<div>
+														<div class="rawExampleHeaderLabel">
+															<span>Body</span>
+														</div>
+														<div class="rawExampleJsonSchemaContainer"></div>
+														<pre class="rawExampleSection rawExampleBody code darkTheme ps-container ps-theme-default" data-ps-id="753f0a8f-8f3c-e331-0a64-8e27d28e5a42"><span class="line"><span class="token punctuation">{</span></span>
+<span class="line">  <span class="token string oneLine">"id"</span><span class="token punctuation">:</span> <span class="token number">1</span><span class="token punctuation">,</span></span>
+<span class="line">  <span class="token string oneLine">"fname"</span><span class="token punctuation">:</span> <span class="token string oneLine">"Pandurang"</span><span class="token punctuation">,</span></span>
+<span class="line">  <span class="token string oneLine">"lname"</span><span class="token punctuation">:</span> <span class="token string oneLine">"Patil"</span><span class="token punctuation">,</span></span>
+<span class="line">  <span class="token string oneLine">"email"</span><span class="token punctuation">:</span> <span class="token string oneLine">"pandurang@email.com"</span></span>
+<span class="line"><span class="token punctuation">}</span></span></pre>
+														<div class="ps-scrollbar-x-rail" style="left: 0px; bottom: 0px;">
+															<div class="ps-scrollbar-x" style="left: 0px; width: 0px;" tabindex="0"></div>
+														</div>
+														<pre></pre>
+														<div class="ps-scrollbar-y-rail" style="top: 0px; right: 0px;">
+															<div class="ps-scrollbar-y" style="top: 0px; height: 0px;" tabindex="0"></div>
+														</div>
+														<pre></pre>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div><!-- Content -->
+							</div>
+							<div class="machineColumnResponse">
+								<!-- Title -->
+								<div class="row machineColumnTitle">
+									<h3 class="row machineColumnTitleText">Response</h3>
+								</div><!-- /Title -->
+								<!-- Content -->
+								<div class="machineColumnResponseContent">
+									<!-- Attributes -->
+									<div class="row machineColumnResponseAttributes hidden">
+										<div class="row attributesTitle">
+											<h3 class="row attributesTitleText">Attributes</h3>
+										</div>
+										<div class="row attributes"></div>
+										<div class="row attributesKit hidden"></div>
+									</div><!-- /Attributes -->
+									<!-- Description -->
+									<!-- /Description -->
+									<!-- Schema -->
+									<div class="row machineColumnResponseSchema"></div><!-- /Schema -->
+									<div class="response">
+										<!-- StatusCode -->
+										<div class="responseStatusCode">
+											401
+										</div><!-- /StatusCode -->
+										<div class="languageExample">
+											<div class="rawExampleContainer">
+												<div class="rawExample darkTheme" data-reactroot="">
+													<ul class="rawExampleSection rawExampleHeaders ps-container ps-theme-default" data-ps-id="e660af65-b082-b61e-af7a-7f62946d10dd">
+														<li style="list-style: none; display: inline">
+															<div class="rawExampleHeaderLabel">
+																<span>Headers</span>
+															</div>
+														</li>
+														<li class="rawExampleHeader"><span class="rawExampleHeaderKey">Content-Type</span><span class="rawExampleHeaderSeparator">:</span><span class="rawExampleHeaderValue">application/json</span></li>
+														<li style="list-style: none; display: inline">
+															<div class="ps-scrollbar-x-rail" style="left: 0px; bottom: 0px;">
+																<div class="ps-scrollbar-x" style="left: 0px; width: 0px;" tabindex="0"></div>
+															</div>
+															<div class="ps-scrollbar-y-rail" style="top: 0px; right: 0px;">
+																<div class="ps-scrollbar-y" style="top: 0px; height: 0px;" tabindex="0"></div>
+															</div>
+														</li>
+													</ul>
+													<div>
+														<div class="rawExampleHeaderLabel">
+															<span>Body</span>
+														</div>
+														<div class="rawExampleJsonSchemaContainer"></div>
+														<pre class="rawExampleSection rawExampleBody code darkTheme ps-container ps-theme-default" data-ps-id="c0aa3f5d-df20-13e1-c341-9b389aca0e5c"><span class="line"><span class="token punctuation">{</span></span>
+														<span class="line">  <span class="token string oneLine">"error"</span><span class="token punctuation">:</span> <span class="token string oneLine">"error.unauthorized"</span></span>
+														<span class="line"><span class="token punctuation">}</span></span></pre>
+														<div class="ps-scrollbar-x-rail" style="left: 0px; bottom: 0px;">
+															<div class="ps-scrollbar-x" style="left: 0px; width: 0px;" tabindex="0"></div>
+														</div>
+														<pre></pre>
+														<div class="ps-scrollbar-y-rail" style="top: 0px; right: 0px;">
+															<div class="ps-scrollbar-y" style="top: 0px; height: 0px;" tabindex="0"></div>
+														</div>
+														<pre></pre>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div><!-- Content -->
+							</div>
+						</div>
+						<div class="row machineColumnContent hidden">
+							<!-- Breadcrumbs -->
+							<div class="row machineColumnBreadcrumbsContainer">
+								<div class="row machineColumnBreadcrumbs">
+									<div class="machineColumnBreadcrumbLine">
+										<!-- Resource Group -->
+										 <a class="machineColumnBreadcrumb machineColumnResourceGroupName" href="/reference/user">User</a> <span class="machineColumnBreadcrumbsSlash">/</span> <!-- /Resource Group -->
+										 <!-- Resource -->
+										 <a class="machineColumnBreadcrumb machineColumnResourceName" href="/reference/user/user-collection">User Collection</a> <span class="machineColumnBreadcrumbsSlash">/</span> <!-- /Resource -->
+										 <!-- Action -->
+										 <a class="machineColumnBreadcrumb machineColumnActionName" href="/reference/user/user-collection/list-all-users">List all users</a> <!-- /Action -->
+									</div>
+								</div>
+							</div><!-- /Breadcrumbs -->
+							<!-- Destination -->
+							<div class="row machineColumnDestination">
+								<div class="destination">
+									<!-- HTTP Method --><span class="destinationMethod get">GET</span><!-- /HTTP Method --><!-- Protocol --><span class="destinationProtocol">http://</span><!-- /Protocol --><!-- Host --><span class="destinationHost">sample.pandurangpatil.com</span><!-- /Host --><!-- UriTemplate --><span class="destinationUriTemplate"><span class="uriTemplate"><span class="uriTemplateSlash">/</span>users(?since,limit)</span></span><!-- /UriTemplate -->
+								</div>
+							</div><!-- /Destination -->
+							<!-- Relation -->
+							<!-- /Relation -->
+							<!-- Parameters -->
+							<div class="row machineColumnParameters">
+								<div class="parameters lightTheme">
+									<!-- Title -->
+									<h3 class="row parametersTitle">Parameters</h3><!-- /Title -->
+									<!-- List -->
+									<ul class="parametersList">
+										<li class="parameter optional">
+											<div class="parameterRow">
+												<!-- Key -->
+												<div class="parameterColumn parameterKeyColumn">
+													<div class="parameterKey">
+														since
+													</div>
+												</div><!-- /Key -->
+												<!-- Requirement -->
+												<div class="parameterColumn parameterRequirementColumn">
+													<div class="parameterRequirement">
+														<span class="parameterIcon"></span> <span class="tooltip">Optional</span>
+													</div>
+												</div><!-- /Requirement -->
+												<!-- Description -->
+												<div class="parameterColumn parameterDescriptionColumn">
+													<!-- Description -->
+													<div class="parameterDescription markdown lightTheme">
+														<p>Timestamp in ISO 8601 format: <code>YYYY-MM-DDTHH:MM:SSZ</code> Only users updated at or after this time are returned.</p>
+													</div><!-- /Description -->
+													<!-- Example -->
+													<!-- /Example -->
+													<!-- Default -->
+													<!-- /Default -->
+													<!-- Values -->
+													<!-- /Values -->
+												</div><!-- /Description -->
+												<!-- Type -->
+												<div class="parameterColumn parameterTypeColumn">
+													<div class="parameterType">
+														String
+													</div>
+												</div><!-- /Type -->
+											</div>
+										</li>
+										<li class="parameter optional">
+											<div class="parameterRow">
+												<!-- Key -->
+												<div class="parameterColumn parameterKeyColumn">
+													<div class="parameterKey">
+														limit
+													</div>
+												</div><!-- /Key -->
+												<!-- Requirement -->
+												<div class="parameterColumn parameterRequirementColumn">
+													<div class="parameterRequirement">
+														<span class="parameterIcon"></span> <span class="tooltip">Optional</span>
+													</div>
+												</div><!-- /Requirement -->
+												<!-- Description -->
+												<div class="parameterColumn parameterDescriptionColumn">
+													<!-- Description -->
+													<div class="parameterDescription markdown lightTheme">
+														<p>maximum number of records expected by client.</p>
+													</div><!-- /Description -->
+													<!-- Example -->
+													<!-- /Example -->
+													<!-- Default -->
+													<!-- /Default -->
+													<!-- Values -->
+													<!-- /Values -->
+												</div><!-- /Description -->
+												<!-- Type -->
+												<div class="parameterColumn parameterTypeColumn">
+													<div class="parameterType">
+														Number
+													</div>
+												</div><!-- /Type -->
+											</div>
+										</li>
+									</ul><!-- /List -->
+								</div>
+							</div><!-- /Parameters -->
+							<!-- Attributes -->
+							<div class="row machineColumnAttributes hidden">
+								<div class="row attributesTitle">
+									<h3 class="row attributesTitleText">Attributes</h3>
+								</div>
+								<div class="row attributes"></div>
+								<div class="row attributesKit hidden"></div>
+							</div><!-- /Attributes -->
+							<div class="machineColumnRequest">
+								<!-- Title -->
+								<div class="row machineColumnTitle">
+									<h3 class="row machineColumnTitleText">Request</h3>
+								</div><!-- /Title -->
+								<!-- Content -->
+								<div class="machineColumnRequestContent">
+									<!-- Attributes -->
+									<div class="row machineColumnRequestAttributes hidden">
+										<div class="row attributesTitle">
+											<h3 class="row attributesTitleText">Attributes</h3>
+										</div>
+										<div class="row attributes"></div>
+										<div class="row attributesKit hidden"></div>
+									</div><!-- /Attributes -->
+									<!-- Description -->
+									<!-- /Description -->
+									<!-- Schema -->
+									<div class="row machineColumnRequestSchema"></div><!-- /Schema -->
+									<!-- Name -->
+									<!-- /Name -->
+									<!-- Controls -->
+									<div class="row machineColumnRequestControls">
+										<div class="machineColumnRequestHostsSelect">
+											<div class="row hostsSelect">
+												<div class="button selectButton noSelect buttonDefault collapsed">
+													<div class="buttonRow">
+														<!-- Text -->
+														<!-- /Text -->
+														<!-- Value -->
+														<div class="buttonColumn selectButtonValueColumn">
+															<span class="selectButtonValue">Production</span>
+														</div><!-- /Value -->
+														<!-- Arrow -->
+														<div class="buttonColumn selectButtonArrowColumn">
+															<span class="selectButtonArrow"></span>
+														</div><!-- /Arrow -->
+													</div>
+												</div>
+												<ul class="dropdownList noSelect customScrollbar customScrollbarDarkDropdown hidden">
+													<li class="dropdownListItem dropDownListItemMockServer">
+														<span class="dropdownListItemLink"><!-- Icon -->
+														 <!-- /Icon --></span>
+														<div class="dropdownListItemTexts">
+															<span class="dropdownListItemLink"><!-- UpperText -->
+															 <!-- /UpperText -->
+															 <!-- Text -->
+															 <span class="dropdownListItemText">Mock Server</span> <!-- /Text --></span>
+														</div>
+													</li>
+													<li class="dropdownListItem dropDownListItemDebuggingProxy">
+														<span class="dropdownListItemLink"><!-- Icon -->
+														 <!-- /Icon --></span>
+														<div class="dropdownListItemTexts">
+															<span class="dropdownListItemLink"><!-- UpperText -->
+															 <!-- /UpperText -->
+															 <!-- Text -->
+															 <span class="dropdownListItemText">Debugging Proxy</span> <!-- /Text --></span>
+														</div>
+													</li>
+													<li class="dropdownListItem dropDownListItemProduction">
+														<span class="dropdownListItemLink"><!-- Icon -->
+														 <!-- /Icon --></span>
+														<div class="dropdownListItemTexts">
+															<span class="dropdownListItemLink"><!-- UpperText -->
+															 <!-- /UpperText -->
+															 <!-- Text -->
+															 <span class="dropdownListItemText">Production</span> <!-- /Text --></span>
+														</div>
+													</li>
+												</ul>
+											</div>
+										</div>
+										<div class="machineColumnRequestCodeExamplesSelect">
+											<div class="row codeExamplesSelect">
+												<div class="button selectButton noSelect buttonDefault collapsed">
+													<div class="buttonRow">
+														<!-- Text -->
+														<!-- /Text -->
+														<!-- Value -->
+														<div class="buttonColumn selectButtonValueColumn">
+															<span class="selectButtonValue">Raw</span>
+														</div><!-- /Value -->
+														<!-- Arrow -->
+														<div class="buttonColumn selectButtonArrowColumn">
+															<span class="selectButtonArrow"></span>
+														</div><!-- /Arrow -->
+													</div>
+												</div>
+												<ul class="dropdownList noSelect customScrollbar customScrollbarDarkDropdown hidden">
+													<li class="dropdownListItem">
+														<span class="dropdownListItemLink"><!-- Icon -->
+														 <!-- /Icon --></span>
+														<div class="dropdownListItemTexts">
+															<span class="dropdownListItemLink"><!-- UpperText -->
+															 <!-- /UpperText -->
+															 <!-- Text -->
+															 <span class="dropdownListItemText">Raw</span> <!-- /Text --></span>
+														</div>
+													</li>
+													<li class="dropdownListItem">
+														<span class="dropdownListItemLink"><!-- Icon -->
+														 <!-- /Icon --></span>
+														<div class="dropdownListItemTexts">
+															<span class="dropdownListItemLink"><!-- UpperText -->
+															 <!-- /UpperText -->
+															 <!-- Text -->
+															 <span class="dropdownListItemText">cURL</span> <!-- /Text --></span>
+														</div>
+													</li>
+													<li class="dropdownListItem">
+														<span class="dropdownListItemLink"><!-- Icon -->
+														 <!-- /Icon --></span>
+														<div class="dropdownListItemTexts">
+															<span class="dropdownListItemLink"><!-- UpperText -->
+															 <!-- /UpperText -->
+															 <!-- Text -->
+															 <span class="dropdownListItemText">Java</span> <!-- /Text --></span>
+														</div>
+													</li>
+													<li class="dropdownListItem">
+														<span class="dropdownListItemLink"><!-- Icon -->
+														 <!-- /Icon --></span>
+														<div class="dropdownListItemTexts">
+															<span class="dropdownListItemLink"><!-- UpperText -->
+															 <!-- /UpperText -->
+															 <!-- Text -->
+															 <span class="dropdownListItemText">JavaScript</span> <!-- /Text --></span>
+														</div>
+													</li>
+													<li class="dropdownListItem">
+														<span class="dropdownListItemLink"><!-- Icon -->
+														 <!-- /Icon --></span>
+														<div class="dropdownListItemTexts">
+															<span class="dropdownListItemLink"><!-- UpperText -->
+															 <!-- /UpperText -->
+															 <!-- Text -->
+															 <span class="dropdownListItemText">Node.js</span> <!-- /Text --></span>
+														</div>
+													</li>
+													<li class="dropdownListItem">
+														<span class="dropdownListItemLink"><!-- Icon -->
+														 <!-- /Icon --></span>
+														<div class="dropdownListItemTexts">
+															<span class="dropdownListItemLink"><!-- UpperText -->
+															 <!-- /UpperText -->
+															 <!-- Text -->
+															 <span class="dropdownListItemText">Perl</span> <!-- /Text --></span>
+														</div>
+													</li>
+													<li class="dropdownListItem">
+														<span class="dropdownListItemLink"><!-- Icon -->
+														 <!-- /Icon --></span>
+														<div class="dropdownListItemTexts">
+															<span class="dropdownListItemLink"><!-- UpperText -->
+															 <!-- /UpperText -->
+															 <!-- Text -->
+															 <span class="dropdownListItemText">Python</span> <!-- /Text --></span>
+														</div>
+													</li>
+													<li class="dropdownListItem">
+														<span class="dropdownListItemLink"><!-- Icon -->
+														 <!-- /Icon --></span>
+														<div class="dropdownListItemTexts">
+															<span class="dropdownListItemLink"><!-- UpperText -->
+															 <!-- /UpperText -->
+															 <!-- Text -->
+															 <span class="dropdownListItemText">PHP</span> <!-- /Text --></span>
+														</div>
+													</li>
+													<li class="dropdownListItem">
+														<span class="dropdownListItemLink"><!-- Icon -->
+														 <!-- /Icon --></span>
+														<div class="dropdownListItemTexts">
+															<span class="dropdownListItemLink"><!-- UpperText -->
+															 <!-- /UpperText -->
+															 <!-- Text -->
+															 <span class="dropdownListItemText">Ruby</span> <!-- /Text --></span>
+														</div>
+													</li>
+													<li class="dropdownListItem">
+														<span class="dropdownListItemLink"><!-- Icon -->
+														 <!-- /Icon --></span>
+														<div class="dropdownListItemTexts">
+															<span class="dropdownListItemLink"><!-- UpperText -->
+															 <!-- /UpperText -->
+															 <!-- Text -->
+															 <span class="dropdownListItemText">Go</span> <!-- /Text --></span>
+														</div>
+													</li>
+													<li class="dropdownListItem">
+														<span class="dropdownListItemLink"><!-- Icon -->
+														 <!-- /Icon --></span>
+														<div class="dropdownListItemTexts">
+															<span class="dropdownListItemLink"><!-- UpperText -->
+															 <!-- /UpperText -->
+															 <!-- Text -->
+															 <span class="dropdownListItemText">C#</span> <!-- /Text --></span>
+														</div>
+													</li>
+													<li class="dropdownListItem">
+														<span class="dropdownListItemLink"><!-- Icon -->
+														 <!-- /Icon --></span>
+														<div class="dropdownListItemTexts">
+															<span class="dropdownListItemLink"><!-- UpperText -->
+															 <!-- /UpperText -->
+															 <!-- Text -->
+															 <span class="dropdownListItemText">Visual Basic</span> <!-- /Text --></span>
+														</div>
+													</li>
+													<li class="dropdownListItem">
+														<span class="dropdownListItemLink"><!-- Icon -->
+														 <!-- /Icon --></span>
+														<div class="dropdownListItemTexts">
+															<span class="dropdownListItemLink"><!-- UpperText -->
+															 <!-- /UpperText -->
+															 <!-- Text -->
+															 <span class="dropdownListItemText">Groovy</span> <!-- /Text --></span>
+														</div>
+													</li>
+													<li class="dropdownListItem">
+														<span class="dropdownListItemLink"><!-- Icon -->
+														 <!-- /Icon --></span>
+														<div class="dropdownListItemTexts">
+															<span class="dropdownListItemLink"><!-- UpperText -->
+															 <!-- /UpperText -->
+															 <!-- Text -->
+															 <span class="dropdownListItemText">Objective-C</span> <!-- /Text --></span>
+														</div>
+													</li>
+													<li class="dropdownListItem">
+														<span class="dropdownListItemLink"><!-- Icon -->
+														 <!-- /Icon --></span>
+														<div class="dropdownListItemTexts">
+															<span class="dropdownListItemLink"><!-- UpperText -->
+															 <!-- /UpperText -->
+															 <!-- Text -->
+															 <span class="dropdownListItemText">Swift</span> <!-- /Text --></span>
+														</div>
+													</li>
+												</ul>
+											</div>
+										</div>
+										<div class="machineColumnRequestSpacer"></div>
+										<div class="button noSelect buttonDefault machineColumnRequestTryButton">
+											<div class="buttonRow">
+												<!-- Text -->
+												<div class="buttonColumn buttonTextColumn">
+													<span class="buttonText">Try</span>
+												</div><!-- /Text -->
+											</div>
+										</div>
+									</div><!-- /Controls -->
+									<div class="request">
+										<div class="languageExample">
+											<div class="rawExampleContainer">
+												<div class="rawExample darkTheme" data-reactroot=""></div>
+											</div>
+										</div>
+									</div>
+								</div><!-- /Content -->
+							</div>
+							<div class="machineColumnResponse">
+								<!-- Title -->
+								<div class="row machineColumnTitle">
+									<h3 class="row machineColumnTitleText">Response</h3>
+								</div><!-- /Title -->
+								<!-- Content -->
+								<div class="machineColumnResponseContent">
+									<!-- Attributes -->
+									<div class="row machineColumnResponseAttributes hidden">
+										<div class="row attributesTitle">
+											<h3 class="row attributesTitleText">Attributes</h3>
+										</div>
+										<div class="row attributes"></div>
+										<div class="row attributesKit hidden"></div>
+									</div><!-- /Attributes -->
+									<!-- Description -->
+									<!-- /Description -->
+									<!-- Schema -->
+									<div class="row machineColumnResponseSchema"></div><!-- /Schema -->
+									<div class="response">
+										<!-- StatusCode -->
+										<div class="responseStatusCode">
+											200
+										</div><!-- /StatusCode -->
+										<div class="languageExample">
+											<div class="rawExampleContainer">
+												<div class="rawExample darkTheme" data-reactroot="">
+													<ul class="rawExampleSection rawExampleHeaders ps-container ps-theme-default" data-ps-id="94bf2b88-a399-ee23-754a-f41716099beb">
+														<li style="list-style: none; display: inline">
+															<div class="rawExampleHeaderLabel">
+																<span>Headers</span>
+															</div>
+														</li>
+														<li class="rawExampleHeader"><span class="rawExampleHeaderKey">Content-Type</span><span class="rawExampleHeaderSeparator">:</span><span class="rawExampleHeaderValue">application/json</span></li>
+														<li style="list-style: none; display: inline">
+															<div class="ps-scrollbar-x-rail" style="left: 0px; bottom: 0px;">
+																<div class="ps-scrollbar-x" style="left: 0px; width: 0px;" tabindex="0"></div>
+															</div>
+															<div class="ps-scrollbar-y-rail" style="top: 0px; right: 0px;">
+																<div class="ps-scrollbar-y" style="top: 0px; height: 0px;" tabindex="0"></div>
+															</div>
+														</li>
+													</ul>
+													<div>
+														<div class="rawExampleHeaderLabel">
+															<span>Body</span>
+														</div>
+														<div class="rawExampleJsonSchemaContainer"></div>
+														<pre class="rawExampleSection rawExampleBody code darkTheme ps-container ps-theme-default" data-ps-id="199d9c69-655b-5f4e-c18f-1235790fc8fb"><span class="line"><span class="token punctuation">[</span></span>
+<span class="line">  <span class="token punctuation">{</span></span>
+<span class="line">    <span class="token string oneLine">"id"</span><span class="token punctuation">:</span> <span class="token number">1</span><span class="token punctuation">,</span></span>
+<span class="line">    <span class="token string oneLine">"fname"</span><span class="token punctuation">:</span> <span class="token string oneLine">"Pandurang"</span><span class="token punctuation">,</span></span>
+<span class="line">    <span class="token string oneLine">"lname"</span><span class="token punctuation">:</span> <span class="token string oneLine">"Patil"</span><span class="token punctuation">,</span></span>
+<span class="line">    <span class="token string oneLine">"email"</span><span class="token punctuation">:</span> <span class="token string oneLine">"pandurang@email.com"</span></span>
+<span class="line">  <span class="token punctuation">}</span><span class="token punctuation">,</span></span>
+<span class="line">  <span class="token punctuation">{</span></span>
+<span class="line">    <span class="token string oneLine">"id"</span><span class="token punctuation">:</span> <span class="token number">2</span><span class="token punctuation">,</span></span>
+<span class="line">    <span class="token string oneLine">"fname"</span><span class="token punctuation">:</span> <span class="token string oneLine">"Sangram"</span><span class="token punctuation">,</span></span>
+<span class="line">    <span class="token string oneLine">"lname"</span><span class="token punctuation">:</span> <span class="token string oneLine">"Shinde"</span><span class="token punctuation">,</span></span>
+<span class="line">    <span class="token string oneLine">"email"</span><span class="token punctuation">:</span> <span class="token string oneLine">"sangram@email.com"</span></span>
+<span class="line">  <span class="token punctuation">}</span></span>
+<span class="line"><span class="token punctuation">]</span></span></pre>
+														<div class="ps-scrollbar-x-rail" style="left: 0px; bottom: 0px;">
+															<div class="ps-scrollbar-x" style="left: 0px; width: 0px;" tabindex="0"></div>
+														</div>
+														<pre></pre>
+														<div class="ps-scrollbar-y-rail" style="top: 0px; right: 0px;">
+															<div class="ps-scrollbar-y" style="top: 0px; height: 0px;" tabindex="0"></div>
+														</div>
+														<pre></pre>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div><!-- Content -->
+							</div>
+							<div class="machineColumnResponse">
+								<!-- Title -->
+								<div class="row machineColumnTitle">
+									<h3 class="row machineColumnTitleText">Response</h3>
+								</div><!-- /Title -->
+								<!-- Content -->
+								<div class="machineColumnResponseContent">
+									<!-- Attributes -->
+									<div class="row machineColumnResponseAttributes hidden">
+										<div class="row attributesTitle">
+											<h3 class="row attributesTitleText">Attributes</h3>
+										</div>
+										<div class="row attributes"></div>
+										<div class="row attributesKit hidden"></div>
+									</div><!-- /Attributes -->
+									<!-- Description -->
+									<!-- /Description -->
+									<!-- Schema -->
+									<div class="row machineColumnResponseSchema"></div><!-- /Schema -->
+									<div class="response">
+										<!-- StatusCode -->
+										<div class="responseStatusCode">
+											401
+										</div><!-- /StatusCode -->
+										<div class="languageExample">
+											<div class="rawExampleContainer">
+												<div class="rawExample darkTheme" data-reactroot="">
+													<ul class="rawExampleSection rawExampleHeaders ps-container ps-theme-default" data-ps-id="6dff8a59-452f-a5a6-6ad9-49658335b2fb">
+														<li style="list-style: none; display: inline">
+															<div class="rawExampleHeaderLabel">
+																<span>Headers</span>
+															</div>
+														</li>
+														<li class="rawExampleHeader"><span class="rawExampleHeaderKey">Content-Type</span><span class="rawExampleHeaderSeparator">:</span><span class="rawExampleHeaderValue">application/json</span></li>
+														<li style="list-style: none; display: inline">
+															<div class="ps-scrollbar-x-rail" style="left: 0px; bottom: 0px;">
+																<div class="ps-scrollbar-x" style="left: 0px; width: 0px;" tabindex="0"></div>
+															</div>
+															<div class="ps-scrollbar-y-rail" style="top: 0px; right: 0px;">
+																<div class="ps-scrollbar-y" style="top: 0px; height: 0px;" tabindex="0"></div>
+															</div>
+														</li>
+													</ul>
+													<div>
+														<div class="rawExampleHeaderLabel">
+															<span>Body</span>
+														</div>
+														<div class="rawExampleJsonSchemaContainer"></div>
+														<pre class="rawExampleSection rawExampleBody code darkTheme ps-container ps-theme-default" data-ps-id="07bfb158-94eb-3f91-0e57-06f3242fe1ff"><span class="line"><span class="token punctuation">{</span></span>
+<span class="line">  <span class="token string oneLine">"error"</span><span class="token punctuation">:</span> <span class="token string oneLine">"error.unauthorized"</span></span>
+<span class="line"><span class="token punctuation">}</span></span></pre>
+														<div class="ps-scrollbar-x-rail" style="left: 0px; bottom: 0px;">
+															<div class="ps-scrollbar-x" style="left: 0px; width: 0px;" tabindex="0"></div>
+														</div>
+														<pre></pre>
+														<div class="ps-scrollbar-y-rail" style="top: 0px; right: 0px;">
+															<div class="ps-scrollbar-y" style="top: 0px; height: 0px;" tabindex="0"></div>
+														</div>
+														<pre></pre>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div><!-- Content -->
+							</div>
+						</div>
+						<div class="row machineColumnContent hidden">
+							<!-- Breadcrumbs -->
+							<div class="row machineColumnBreadcrumbsContainer">
+								<div class="row machineColumnBreadcrumbs">
+									<div class="machineColumnBreadcrumbLine">
+										<!-- Resource Group -->
+										 <a class="machineColumnBreadcrumb machineColumnResourceGroupName" href="/reference/user">User</a> <span class="machineColumnBreadcrumbsSlash">/</span> <!-- /Resource Group -->
+										 <!-- Resource -->
+										 <a class="machineColumnBreadcrumb machineColumnResourceName" href="/reference/user/user-collection">User Collection</a> <span class="machineColumnBreadcrumbsSlash">/</span> <!-- /Resource -->
+										 <!-- Action -->
+										 <a class="machineColumnBreadcrumb machineColumnActionName" href="/reference/user/user-collection/create-a-user">Create a User</a> <!-- /Action -->
+									</div>
+								</div>
+							</div><!-- /Breadcrumbs -->
+							<!-- Destination -->
+							<div class="row machineColumnDestination">
+								<div class="destination">
+									<!-- HTTP Method --><span class="destinationMethod put">PUT</span><!-- /HTTP Method --><!-- Protocol --><span class="destinationProtocol">http://</span><!-- /Protocol --><!-- Host --><span class="destinationHost">sample.pandurangpatil.com</span><!-- /Host --><!-- UriTemplate --><span class="destinationUriTemplate"><span class="uriTemplate"><span class="uriTemplateSlash">/</span>users(?since,limit)</span></span><!-- /UriTemplate -->
+								</div>
+							</div><!-- /Destination -->
+							<!-- Relation -->
+							<!-- /Relation -->
+							<!-- Parameters -->
+							<div class="row machineColumnParameters hidden"></div><!-- /Parameters -->
+							<!-- Attributes -->
+							<div class="row machineColumnAttributes hidden">
+								<div class="row attributesTitle">
+									<h3 class="row attributesTitleText">Attributes</h3>
+								</div>
+								<div class="row attributes"></div>
+								<div class="row attributesKit hidden"></div>
+							</div><!-- /Attributes -->
+							<div class="machineColumnRequest">
+								<!-- Title -->
+								<div class="row machineColumnTitle">
+									<h3 class="row machineColumnTitleText">Request</h3>
+								</div><!-- /Title -->
+								<!-- Content -->
+								<div class="machineColumnRequestContent">
+									<!-- Attributes -->
+									<div class="row machineColumnRequestAttributes hidden">
+										<div class="row attributesTitle">
+											<h3 class="row attributesTitleText">Attributes</h3>
+										</div>
+										<div class="row attributes"></div>
+										<div class="row attributesKit hidden"></div>
+									</div><!-- /Attributes -->
+									<!-- Description -->
+									<!-- /Description -->
+									<!-- Schema -->
+									<div class="row machineColumnRequestSchema"></div><!-- /Schema -->
+									<!-- Name -->
+									<!-- /Name -->
+									<!-- Controls -->
+									<div class="row machineColumnRequestControls">
+										<div class="machineColumnRequestHostsSelect">
+											<div class="row hostsSelect">
+												<div class="button selectButton noSelect buttonDefault collapsed">
+													<div class="buttonRow">
+														<!-- Text -->
+														<!-- /Text -->
+														<!-- Value -->
+														<div class="buttonColumn selectButtonValueColumn">
+															<span class="selectButtonValue">Production</span>
+														</div><!-- /Value -->
+														<!-- Arrow -->
+														<div class="buttonColumn selectButtonArrowColumn">
+															<span class="selectButtonArrow"></span>
+														</div><!-- /Arrow -->
+													</div>
+												</div>
+												<ul class="dropdownList noSelect customScrollbar customScrollbarDarkDropdown hidden">
+													<li class="dropdownListItem dropDownListItemMockServer">
+														<span class="dropdownListItemLink"><!-- Icon -->
+														 <!-- /Icon --></span>
+														<div class="dropdownListItemTexts">
+															<span class="dropdownListItemLink"><!-- UpperText -->
+															 <!-- /UpperText -->
+															 <!-- Text -->
+															 <span class="dropdownListItemText">Mock Server</span> <!-- /Text --></span>
+														</div>
+													</li>
+													<li class="dropdownListItem dropDownListItemDebuggingProxy">
+														<span class="dropdownListItemLink"><!-- Icon -->
+														 <!-- /Icon --></span>
+														<div class="dropdownListItemTexts">
+															<span class="dropdownListItemLink"><!-- UpperText -->
+															 <!-- /UpperText -->
+															 <!-- Text -->
+															 <span class="dropdownListItemText">Debugging Proxy</span> <!-- /Text --></span>
+														</div>
+													</li>
+													<li class="dropdownListItem dropDownListItemProduction">
+														<span class="dropdownListItemLink"><!-- Icon -->
+														 <!-- /Icon --></span>
+														<div class="dropdownListItemTexts">
+															<span class="dropdownListItemLink"><!-- UpperText -->
+															 <!-- /UpperText -->
+															 <!-- Text -->
+															 <span class="dropdownListItemText">Production</span> <!-- /Text --></span>
+														</div>
+													</li>
+												</ul>
+											</div>
+										</div>
+										<div class="machineColumnRequestCodeExamplesSelect">
+											<div class="row codeExamplesSelect">
+												<div class="button selectButton noSelect buttonDefault collapsed">
+													<div class="buttonRow">
+														<!-- Text -->
+														<!-- /Text -->
+														<!-- Value -->
+														<div class="buttonColumn selectButtonValueColumn">
+															<span class="selectButtonValue">Raw</span>
+														</div><!-- /Value -->
+														<!-- Arrow -->
+														<div class="buttonColumn selectButtonArrowColumn">
+															<span class="selectButtonArrow"></span>
+														</div><!-- /Arrow -->
+													</div>
+												</div>
+												<ul class="dropdownList noSelect customScrollbar customScrollbarDarkDropdown hidden">
+													<li class="dropdownListItem">
+														<span class="dropdownListItemLink"><!-- Icon -->
+														 <!-- /Icon --></span>
+														<div class="dropdownListItemTexts">
+															<span class="dropdownListItemLink"><!-- UpperText -->
+															 <!-- /UpperText -->
+															 <!-- Text -->
+															 <span class="dropdownListItemText">Raw</span> <!-- /Text --></span>
+														</div>
+													</li>
+													<li class="dropdownListItem">
+														<span class="dropdownListItemLink"><!-- Icon -->
+														 <!-- /Icon --></span>
+														<div class="dropdownListItemTexts">
+															<span class="dropdownListItemLink"><!-- UpperText -->
+															 <!-- /UpperText -->
+															 <!-- Text -->
+															 <span class="dropdownListItemText">cURL</span> <!-- /Text --></span>
+														</div>
+													</li>
+													<li class="dropdownListItem">
+														<span class="dropdownListItemLink"><!-- Icon -->
+														 <!-- /Icon --></span>
+														<div class="dropdownListItemTexts">
+															<span class="dropdownListItemLink"><!-- UpperText -->
+															 <!-- /UpperText -->
+															 <!-- Text -->
+															 <span class="dropdownListItemText">Java</span> <!-- /Text --></span>
+														</div>
+													</li>
+													<li class="dropdownListItem">
+														<span class="dropdownListItemLink"><!-- Icon -->
+														 <!-- /Icon --></span>
+														<div class="dropdownListItemTexts">
+															<span class="dropdownListItemLink"><!-- UpperText -->
+															 <!-- /UpperText -->
+															 <!-- Text -->
+															 <span class="dropdownListItemText">JavaScript</span> <!-- /Text --></span>
+														</div>
+													</li>
+													<li class="dropdownListItem">
+														<span class="dropdownListItemLink"><!-- Icon -->
+														 <!-- /Icon --></span>
+														<div class="dropdownListItemTexts">
+															<span class="dropdownListItemLink"><!-- UpperText -->
+															 <!-- /UpperText -->
+															 <!-- Text -->
+															 <span class="dropdownListItemText">Node.js</span> <!-- /Text --></span>
+														</div>
+													</li>
+													<li class="dropdownListItem">
+														<span class="dropdownListItemLink"><!-- Icon -->
+														 <!-- /Icon --></span>
+														<div class="dropdownListItemTexts">
+															<span class="dropdownListItemLink"><!-- UpperText -->
+															 <!-- /UpperText -->
+															 <!-- Text -->
+															 <span class="dropdownListItemText">Perl</span> <!-- /Text --></span>
+														</div>
+													</li>
+													<li class="dropdownListItem">
+														<span class="dropdownListItemLink"><!-- Icon -->
+														 <!-- /Icon --></span>
+														<div class="dropdownListItemTexts">
+															<span class="dropdownListItemLink"><!-- UpperText -->
+															 <!-- /UpperText -->
+															 <!-- Text -->
+															 <span class="dropdownListItemText">Python</span> <!-- /Text --></span>
+														</div>
+													</li>
+													<li class="dropdownListItem">
+														<span class="dropdownListItemLink"><!-- Icon -->
+														 <!-- /Icon --></span>
+														<div class="dropdownListItemTexts">
+															<span class="dropdownListItemLink"><!-- UpperText -->
+															 <!-- /UpperText -->
+															 <!-- Text -->
+															 <span class="dropdownListItemText">PHP</span> <!-- /Text --></span>
+														</div>
+													</li>
+													<li class="dropdownListItem">
+														<span class="dropdownListItemLink"><!-- Icon -->
+														 <!-- /Icon --></span>
+														<div class="dropdownListItemTexts">
+															<span class="dropdownListItemLink"><!-- UpperText -->
+															 <!-- /UpperText -->
+															 <!-- Text -->
+															 <span class="dropdownListItemText">Ruby</span> <!-- /Text --></span>
+														</div>
+													</li>
+													<li class="dropdownListItem">
+														<span class="dropdownListItemLink"><!-- Icon -->
+														 <!-- /Icon --></span>
+														<div class="dropdownListItemTexts">
+															<span class="dropdownListItemLink"><!-- UpperText -->
+															 <!-- /UpperText -->
+															 <!-- Text -->
+															 <span class="dropdownListItemText">Go</span> <!-- /Text --></span>
+														</div>
+													</li>
+													<li class="dropdownListItem">
+														<span class="dropdownListItemLink"><!-- Icon -->
+														 <!-- /Icon --></span>
+														<div class="dropdownListItemTexts">
+															<span class="dropdownListItemLink"><!-- UpperText -->
+															 <!-- /UpperText -->
+															 <!-- Text -->
+															 <span class="dropdownListItemText">C#</span> <!-- /Text --></span>
+														</div>
+													</li>
+													<li class="dropdownListItem">
+														<span class="dropdownListItemLink"><!-- Icon -->
+														 <!-- /Icon --></span>
+														<div class="dropdownListItemTexts">
+															<span class="dropdownListItemLink"><!-- UpperText -->
+															 <!-- /UpperText -->
+															 <!-- Text -->
+															 <span class="dropdownListItemText">Visual Basic</span> <!-- /Text --></span>
+														</div>
+													</li>
+													<li class="dropdownListItem">
+														<span class="dropdownListItemLink"><!-- Icon -->
+														 <!-- /Icon --></span>
+														<div class="dropdownListItemTexts">
+															<span class="dropdownListItemLink"><!-- UpperText -->
+															 <!-- /UpperText -->
+															 <!-- Text -->
+															 <span class="dropdownListItemText">Groovy</span> <!-- /Text --></span>
+														</div>
+													</li>
+													<li class="dropdownListItem">
+														<span class="dropdownListItemLink"><!-- Icon -->
+														 <!-- /Icon --></span>
+														<div class="dropdownListItemTexts">
+															<span class="dropdownListItemLink"><!-- UpperText -->
+															 <!-- /UpperText -->
+															 <!-- Text -->
+															 <span class="dropdownListItemText">Objective-C</span> <!-- /Text --></span>
+														</div>
+													</li>
+													<li class="dropdownListItem">
+														<span class="dropdownListItemLink"><!-- Icon -->
+														 <!-- /Icon --></span>
+														<div class="dropdownListItemTexts">
+															<span class="dropdownListItemLink"><!-- UpperText -->
+															 <!-- /UpperText -->
+															 <!-- Text -->
+															 <span class="dropdownListItemText">Swift</span> <!-- /Text --></span>
+														</div>
+													</li>
+												</ul>
+											</div>
+										</div>
+										<div class="machineColumnRequestSpacer"></div>
+										<div class="button noSelect buttonDefault machineColumnRequestTryButton">
+											<div class="buttonRow">
+												<!-- Text -->
+												<div class="buttonColumn buttonTextColumn">
+													<span class="buttonText">Try</span>
+												</div><!-- /Text -->
+											</div>
+										</div>
+									</div><!-- /Controls -->
+									<div class="request">
+										<div class="languageExample">
+											<div class="rawExampleContainer">
+												<div class="rawExample darkTheme" data-reactroot="">
+													<ul class="rawExampleSection rawExampleHeaders ps-container ps-theme-default" data-ps-id="45a2e627-e895-cc94-fbb4-85e5130a4fe4">
+														<li style="list-style: none; display: inline">
+															<div class="rawExampleHeaderLabel">
+																<span>Headers</span>
+															</div>
+														</li>
+														<li class="rawExampleHeader"><span class="rawExampleHeaderKey">Content-Type</span><span class="rawExampleHeaderSeparator">:</span><span class="rawExampleHeaderValue">application/json</span></li>
+														<li style="list-style: none; display: inline">
+															<div class="ps-scrollbar-x-rail" style="left: 0px; bottom: 0px;">
+																<div class="ps-scrollbar-x" style="left: 0px; width: 0px;" tabindex="0"></div>
+															</div>
+															<div class="ps-scrollbar-y-rail" style="top: 0px; right: 0px;">
+																<div class="ps-scrollbar-y" style="top: 0px; height: 0px;" tabindex="0"></div>
+															</div>
+														</li>
+													</ul>
+													<div>
+														<div class="rawExampleHeaderLabel">
+															<span>Body</span>
+														</div>
+														<div class="rawExampleJsonSchemaContainer"></div>
+														<pre class="rawExampleSection rawExampleBody code darkTheme ps-container ps-theme-default" data-ps-id="98f8ff13-a073-0395-f759-930230c6bbc3"><span class="line"><span class="token punctuation">{</span></span>
+<span class="line">  <span class="token string oneLine">"fname"</span><span class="token punctuation">:</span> <span class="token string oneLine">"Ram"</span><span class="token punctuation">,</span></span>
+<span class="line">  <span class="token string oneLine">"lname"</span><span class="token punctuation">:</span> <span class="token string oneLine">"Jadhav"</span><span class="token punctuation">,</span></span>
+<span class="line">  <span class="token string oneLine">"email"</span><span class="token punctuation">:</span> <span class="token string oneLine">"ram@email.com"</span></span>
+<span class="line"><span class="token punctuation">}</span></span></pre>
+														<div class="ps-scrollbar-x-rail" style="left: 0px; bottom: 0px;">
+															<div class="ps-scrollbar-x" style="left: 0px; width: 0px;" tabindex="0"></div>
+														</div>
+														<pre></pre>
+														<div class="ps-scrollbar-y-rail" style="top: 0px; right: 0px;">
+															<div class="ps-scrollbar-y" style="top: 0px; height: 0px;" tabindex="0"></div>
+														</div>
+														<pre></pre>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div><!-- /Content -->
+							</div>
+							<div class="machineColumnResponse">
+								<!-- Title -->
+								<div class="row machineColumnTitle">
+									<h3 class="row machineColumnTitleText">Response</h3>
+								</div><!-- /Title -->
+								<!-- Content -->
+								<div class="machineColumnResponseContent">
+									<!-- Attributes -->
+									<div class="row machineColumnResponseAttributes hidden">
+										<div class="row attributesTitle">
+											<h3 class="row attributesTitleText">Attributes</h3>
+										</div>
+										<div class="row attributes"></div>
+										<div class="row attributesKit hidden"></div>
+									</div><!-- /Attributes -->
+									<!-- Description -->
+									<!-- /Description -->
+									<!-- Schema -->
+									<div class="row machineColumnResponseSchema"></div><!-- /Schema -->
+									<div class="response">
+										<!-- StatusCode -->
+										<div class="responseStatusCode">
+											201
+										</div><!-- /StatusCode -->
+										<div class="languageExample">
+											<div class="rawExampleContainer">
+												<div class="rawExample darkTheme" data-reactroot="">
+													<ul class="rawExampleSection rawExampleHeaders ps-container ps-theme-default" data-ps-id="68f949c0-6c7f-fb6b-2c0b-7fb8e0b82666">
+														<li style="list-style: none; display: inline">
+															<div class="rawExampleHeaderLabel">
+																<span>Headers</span>
+															</div>
+														</li>
+														<li class="rawExampleHeader"><span class="rawExampleHeaderKey">Content-Type</span><span class="rawExampleHeaderSeparator">:</span><span class="rawExampleHeaderValue">application/json</span></li>
+														<li style="list-style: none; display: inline">
+															<div class="ps-scrollbar-x-rail" style="left: 0px; bottom: 0px;">
+																<div class="ps-scrollbar-x" style="left: 0px; width: 0px;" tabindex="0"></div>
+															</div>
+															<div class="ps-scrollbar-y-rail" style="top: 0px; right: 0px;">
+																<div class="ps-scrollbar-y" style="top: 0px; height: 0px;" tabindex="0"></div>
+															</div>
+														</li>
+													</ul>
+													<div>
+														<div class="rawExampleHeaderLabel">
+															<span>Body</span>
+														</div>
+														<div class="rawExampleJsonSchemaContainer"></div>
+														<pre class="rawExampleSection rawExampleBody code darkTheme ps-container ps-theme-default" data-ps-id="b7b277dd-63cc-0dd5-a7b7-c12c789bf873"><span class="line"><span class="token punctuation">{</span></span>
+<span class="line">  <span class="token string oneLine">"id"</span><span class="token punctuation">:</span> <span class="token number">3</span><span class="token punctuation">,</span></span>
+<span class="line">  <span class="token string oneLine">"fname"</span><span class="token punctuation">:</span> <span class="token string oneLine">"Ram"</span><span class="token punctuation">,</span></span>
+<span class="line">  <span class="token string oneLine">"lname"</span><span class="token punctuation">:</span> <span class="token string oneLine">"Jadhav"</span><span class="token punctuation">,</span></span>
+<span class="line">  <span class="token string oneLine">"email"</span><span class="token punctuation">:</span> <span class="token string oneLine">"ram@email.com"</span></span>
+<span class="line"><span class="token punctuation">}</span></span></pre>
+														<div class="ps-scrollbar-x-rail" style="left: 0px; bottom: 0px;">
+															<div class="ps-scrollbar-x" style="left: 0px; width: 0px;" tabindex="0"></div>
+														</div>
+														<pre></pre>
+														<div class="ps-scrollbar-y-rail" style="top: 0px; right: 0px;">
+															<div class="ps-scrollbar-y" style="top: 0px; height: 0px;" tabindex="0"></div>
+														</div>
+														<pre></pre>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div><!-- Content -->
+							</div>
+						</div>
+						<div class="row machineColumnContent hidden">
+							<!-- Breadcrumbs -->
+							<div class="row machineColumnBreadcrumbsContainer">
+								<div class="row machineColumnBreadcrumbs">
+									<div class="machineColumnBreadcrumbLine">
+										<!-- Resource Group -->
+										 <a class="machineColumnBreadcrumb machineColumnResourceGroupName" href="/reference/user">User</a> <span class="machineColumnBreadcrumbsSlash">/</span> <!-- /Resource Group -->
+										 <!-- Resource -->
+										 <a class="machineColumnBreadcrumb machineColumnResourceName" href="/reference/user/user">User</a> <span class="machineColumnBreadcrumbsSlash">/</span> <!-- /Resource -->
+										 <!-- Action -->
+										 <a class="machineColumnBreadcrumb machineColumnActionName" href="/reference/user/user/update-a-user">Update a User</a> <!-- /Action -->
+									</div>
+								</div>
+							</div><!-- /Breadcrumbs -->
+							<!-- Destination -->
+							<div class="row machineColumnDestination">
+								<div class="destination">
+									<!-- HTTP Method --><span class="destinationMethod post">POST</span><!-- /HTTP Method --><!-- Protocol --><span class="destinationProtocol">http://</span><!-- /Protocol --><!-- Host --><span class="destinationHost">sample.pandurangpatil.com</span><!-- /Host --><!-- UriTemplate --><span class="destinationUriTemplate"><span class="uriTemplate"><span class="uriTemplateSlash">/</span>users<span class="uriTemplateSlash">/</span><span class="uriTemplateVariable">id</span></span></span><!-- /UriTemplate -->
+								</div>
+							</div><!-- /Destination -->
+							<!-- Relation -->
+							<!-- /Relation -->
+							<!-- Parameters -->
+							<div class="row machineColumnParameters">
+								<div class="parameters lightTheme">
+									<!-- Title -->
+									<h3 class="row parametersTitle">Parameters</h3><!-- /Title -->
+									<!-- List -->
+									<ul class="parametersList">
+										<li class="parameter required">
+											<div class="parameterRow">
+												<!-- Key -->
+												<div class="parameterColumn parameterKeyColumn">
+													<div class="parameterKey">
+														id
+													</div>
+												</div><!-- /Key -->
+												<!-- Requirement -->
+												<div class="parameterColumn parameterRequirementColumn">
+													<div class="parameterRequirement">
+														<span class="parameterIcon"></span> <span class="tooltip">Required</span>
+													</div>
+												</div><!-- /Requirement -->
+												<!-- Description -->
+												<div class="parameterColumn parameterDescriptionColumn">
+													<!-- Description -->
+													<div class="parameterDescription markdown lightTheme">
+														<p>Numeric <code>id</code> of the User to perform action with.</p>
+													</div><!-- /Description -->
+													<!-- Example -->
+													<em class="parameterExampleText">Example:&nbsp;<code class="parameterExampleValue">1</code>.</em> <!-- /Example -->
+													 <!-- Default -->
+													 <!-- /Default -->
+													 <!-- Values -->
+													 <!-- /Values -->
+												</div><!-- /Description -->
+												<!-- Type -->
+												<div class="parameterColumn parameterTypeColumn">
+													<div class="parameterType">
+														Number
+													</div>
+												</div><!-- /Type -->
+											</div>
+										</li>
+									</ul><!-- /List -->
+								</div>
+							</div><!-- /Parameters -->
+							<!-- Attributes -->
+							<div class="row machineColumnAttributes hidden">
+								<div class="row attributesTitle">
+									<h3 class="row attributesTitleText">Attributes</h3>
+								</div>
+								<div class="row attributes"></div>
+								<div class="row attributesKit hidden"></div>
+							</div><!-- /Attributes -->
+							<div class="machineColumnRequest">
+								<!-- Title -->
+								<div class="row machineColumnTitle">
+									<h3 class="row machineColumnTitleText">Request</h3>
+								</div><!-- /Title -->
+								<!-- Content -->
+								<div class="machineColumnRequestContent">
+									<!-- Attributes -->
+									<div class="row machineColumnRequestAttributes hidden">
+										<div class="row attributesTitle">
+											<h3 class="row attributesTitleText">Attributes</h3>
+										</div>
+										<div class="row attributes"></div>
+										<div class="row attributesKit hidden"></div>
+									</div><!-- /Attributes -->
+									<!-- Description -->
+									<!-- /Description -->
+									<!-- Schema -->
+									<div class="row machineColumnRequestSchema"></div><!-- /Schema -->
+									<!-- Name -->
+									<!-- /Name -->
+									<!-- Controls -->
+									<div class="row machineColumnRequestControls">
+										<div class="machineColumnRequestHostsSelect">
+											<div class="row hostsSelect">
+												<div class="button selectButton noSelect buttonDefault collapsed">
+													<div class="buttonRow">
+														<!-- Text -->
+														<!-- /Text -->
+														<!-- Value -->
+														<div class="buttonColumn selectButtonValueColumn">
+															<span class="selectButtonValue">Production</span>
+														</div><!-- /Value -->
+														<!-- Arrow -->
+														<div class="buttonColumn selectButtonArrowColumn">
+															<span class="selectButtonArrow"></span>
+														</div><!-- /Arrow -->
+													</div>
+												</div>
+												<ul class="dropdownList noSelect customScrollbar customScrollbarDarkDropdown hidden">
+													<li class="dropdownListItem dropDownListItemMockServer">
+														<span class="dropdownListItemLink"><!-- Icon -->
+														 <!-- /Icon --></span>
+														<div class="dropdownListItemTexts">
+															<span class="dropdownListItemLink"><!-- UpperText -->
+															 <!-- /UpperText -->
+															 <!-- Text -->
+															 <span class="dropdownListItemText">Mock Server</span> <!-- /Text --></span>
+														</div>
+													</li>
+													<li class="dropdownListItem dropDownListItemDebuggingProxy">
+														<span class="dropdownListItemLink"><!-- Icon -->
+														 <!-- /Icon --></span>
+														<div class="dropdownListItemTexts">
+															<span class="dropdownListItemLink"><!-- UpperText -->
+															 <!-- /UpperText -->
+															 <!-- Text -->
+															 <span class="dropdownListItemText">Debugging Proxy</span> <!-- /Text --></span>
+														</div>
+													</li>
+													<li class="dropdownListItem dropDownListItemProduction">
+														<span class="dropdownListItemLink"><!-- Icon -->
+														 <!-- /Icon --></span>
+														<div class="dropdownListItemTexts">
+															<span class="dropdownListItemLink"><!-- UpperText -->
+															 <!-- /UpperText -->
+															 <!-- Text -->
+															 <span class="dropdownListItemText">Production</span> <!-- /Text --></span>
+														</div>
+													</li>
+												</ul>
+											</div>
+										</div>
+										<div class="machineColumnRequestCodeExamplesSelect">
+											<div class="row codeExamplesSelect">
+												<div class="button selectButton noSelect buttonDefault collapsed">
+													<div class="buttonRow">
+														<!-- Text -->
+														<!-- /Text -->
+														<!-- Value -->
+														<div class="buttonColumn selectButtonValueColumn">
+															<span class="selectButtonValue">Raw</span>
+														</div><!-- /Value -->
+														<!-- Arrow -->
+														<div class="buttonColumn selectButtonArrowColumn">
+															<span class="selectButtonArrow"></span>
+														</div><!-- /Arrow -->
+													</div>
+												</div>
+												<ul class="dropdownList noSelect customScrollbar customScrollbarDarkDropdown hidden">
+													<li class="dropdownListItem">
+														<span class="dropdownListItemLink"><!-- Icon -->
+														 <!-- /Icon --></span>
+														<div class="dropdownListItemTexts">
+															<span class="dropdownListItemLink"><!-- UpperText -->
+															 <!-- /UpperText -->
+															 <!-- Text -->
+															 <span class="dropdownListItemText">Raw</span> <!-- /Text --></span>
+														</div>
+													</li>
+													<li class="dropdownListItem">
+														<span class="dropdownListItemLink"><!-- Icon -->
+														 <!-- /Icon --></span>
+														<div class="dropdownListItemTexts">
+															<span class="dropdownListItemLink"><!-- UpperText -->
+															 <!-- /UpperText -->
+															 <!-- Text -->
+															 <span class="dropdownListItemText">cURL</span> <!-- /Text --></span>
+														</div>
+													</li>
+													<li class="dropdownListItem">
+														<span class="dropdownListItemLink"><!-- Icon -->
+														 <!-- /Icon --></span>
+														<div class="dropdownListItemTexts">
+															<span class="dropdownListItemLink"><!-- UpperText -->
+															 <!-- /UpperText -->
+															 <!-- Text -->
+															 <span class="dropdownListItemText">Java</span> <!-- /Text --></span>
+														</div>
+													</li>
+													<li class="dropdownListItem">
+														<span class="dropdownListItemLink"><!-- Icon -->
+														 <!-- /Icon --></span>
+														<div class="dropdownListItemTexts">
+															<span class="dropdownListItemLink"><!-- UpperText -->
+															 <!-- /UpperText -->
+															 <!-- Text -->
+															 <span class="dropdownListItemText">JavaScript</span> <!-- /Text --></span>
+														</div>
+													</li>
+													<li class="dropdownListItem">
+														<span class="dropdownListItemLink"><!-- Icon -->
+														 <!-- /Icon --></span>
+														<div class="dropdownListItemTexts">
+															<span class="dropdownListItemLink"><!-- UpperText -->
+															 <!-- /UpperText -->
+															 <!-- Text -->
+															 <span class="dropdownListItemText">Node.js</span> <!-- /Text --></span>
+														</div>
+													</li>
+													<li class="dropdownListItem">
+														<span class="dropdownListItemLink"><!-- Icon -->
+														 <!-- /Icon --></span>
+														<div class="dropdownListItemTexts">
+															<span class="dropdownListItemLink"><!-- UpperText -->
+															 <!-- /UpperText -->
+															 <!-- Text -->
+															 <span class="dropdownListItemText">Perl</span> <!-- /Text --></span>
+														</div>
+													</li>
+													<li class="dropdownListItem">
+														<span class="dropdownListItemLink"><!-- Icon -->
+														 <!-- /Icon --></span>
+														<div class="dropdownListItemTexts">
+															<span class="dropdownListItemLink"><!-- UpperText -->
+															 <!-- /UpperText -->
+															 <!-- Text -->
+															 <span class="dropdownListItemText">Python</span> <!-- /Text --></span>
+														</div>
+													</li>
+													<li class="dropdownListItem">
+														<span class="dropdownListItemLink"><!-- Icon -->
+														 <!-- /Icon --></span>
+														<div class="dropdownListItemTexts">
+															<span class="dropdownListItemLink"><!-- UpperText -->
+															 <!-- /UpperText -->
+															 <!-- Text -->
+															 <span class="dropdownListItemText">PHP</span> <!-- /Text --></span>
+														</div>
+													</li>
+													<li class="dropdownListItem">
+														<span class="dropdownListItemLink"><!-- Icon -->
+														 <!-- /Icon --></span>
+														<div class="dropdownListItemTexts">
+															<span class="dropdownListItemLink"><!-- UpperText -->
+															 <!-- /UpperText -->
+															 <!-- Text -->
+															 <span class="dropdownListItemText">Ruby</span> <!-- /Text --></span>
+														</div>
+													</li>
+													<li class="dropdownListItem">
+														<span class="dropdownListItemLink"><!-- Icon -->
+														 <!-- /Icon --></span>
+														<div class="dropdownListItemTexts">
+															<span class="dropdownListItemLink"><!-- UpperText -->
+															 <!-- /UpperText -->
+															 <!-- Text -->
+															 <span class="dropdownListItemText">Go</span> <!-- /Text --></span>
+														</div>
+													</li>
+													<li class="dropdownListItem">
+														<span class="dropdownListItemLink"><!-- Icon -->
+														 <!-- /Icon --></span>
+														<div class="dropdownListItemTexts">
+															<span class="dropdownListItemLink"><!-- UpperText -->
+															 <!-- /UpperText -->
+															 <!-- Text -->
+															 <span class="dropdownListItemText">C#</span> <!-- /Text --></span>
+														</div>
+													</li>
+													<li class="dropdownListItem">
+														<span class="dropdownListItemLink"><!-- Icon -->
+														 <!-- /Icon --></span>
+														<div class="dropdownListItemTexts">
+															<span class="dropdownListItemLink"><!-- UpperText -->
+															 <!-- /UpperText -->
+															 <!-- Text -->
+															 <span class="dropdownListItemText">Visual Basic</span> <!-- /Text --></span>
+														</div>
+													</li>
+													<li class="dropdownListItem">
+														<span class="dropdownListItemLink"><!-- Icon -->
+														 <!-- /Icon --></span>
+														<div class="dropdownListItemTexts">
+															<span class="dropdownListItemLink"><!-- UpperText -->
+															 <!-- /UpperText -->
+															 <!-- Text -->
+															 <span class="dropdownListItemText">Groovy</span> <!-- /Text --></span>
+														</div>
+													</li>
+													<li class="dropdownListItem">
+														<span class="dropdownListItemLink"><!-- Icon -->
+														 <!-- /Icon --></span>
+														<div class="dropdownListItemTexts">
+															<span class="dropdownListItemLink"><!-- UpperText -->
+															 <!-- /UpperText -->
+															 <!-- Text -->
+															 <span class="dropdownListItemText">Objective-C</span> <!-- /Text --></span>
+														</div>
+													</li>
+													<li class="dropdownListItem">
+														<span class="dropdownListItemLink"><!-- Icon -->
+														 <!-- /Icon --></span>
+														<div class="dropdownListItemTexts">
+															<span class="dropdownListItemLink"><!-- UpperText -->
+															 <!-- /UpperText -->
+															 <!-- Text -->
+															 <span class="dropdownListItemText">Swift</span> <!-- /Text --></span>
+														</div>
+													</li>
+												</ul>
+											</div>
+										</div>
+										<div class="machineColumnRequestSpacer"></div>
+										<div class="button noSelect buttonDefault machineColumnRequestTryButton">
+											<div class="buttonRow">
+												<!-- Text -->
+												<div class="buttonColumn buttonTextColumn">
+													<span class="buttonText">Try</span>
+												</div><!-- /Text -->
+											</div>
+										</div>
+									</div><!-- /Controls -->
+									<div class="request">
+										<div class="languageExample">
+											<div class="rawExampleContainer">
+												<div class="rawExample darkTheme" data-reactroot="">
+													<ul class="rawExampleSection rawExampleHeaders ps-container ps-theme-default" data-ps-id="d0825b2d-a165-4ff8-b707-9c0b18db32b5">
+														<li style="list-style: none; display: inline">
+															<div class="rawExampleHeaderLabel">
+																<span>Headers</span>
+															</div>
+														</li>
+														<li class="rawExampleHeader"><span class="rawExampleHeaderKey">Content-Type</span><span class="rawExampleHeaderSeparator">:</span><span class="rawExampleHeaderValue">application/json</span></li>
+														<li style="list-style: none; display: inline">
+															<div class="ps-scrollbar-x-rail" style="left: 0px; bottom: 0px;">
+																<div class="ps-scrollbar-x" style="left: 0px; width: 0px;" tabindex="0"></div>
+															</div>
+															<div class="ps-scrollbar-y-rail" style="top: 0px; right: 0px;">
+																<div class="ps-scrollbar-y" style="top: 0px; height: 0px;" tabindex="0"></div>
+															</div>
+														</li>
+													</ul>
+													<div>
+														<div class="rawExampleHeaderLabel">
+															<span>Body</span>
+														</div>
+														<div class="rawExampleJsonSchemaContainer"></div>
+														<pre class="rawExampleSection rawExampleBody code darkTheme ps-container ps-theme-default" data-ps-id="114aef71-f312-c626-fc3d-1e0db7689f67"><span class="line"><span class="token punctuation">{</span></span>
+<span class="line">  <span class="token string oneLine">"id"</span><span class="token punctuation">:</span> <span class="token number">1</span><span class="token punctuation">,</span></span>
+<span class="line">  <span class="token string oneLine">"fname"</span><span class="token punctuation">:</span> <span class="token string oneLine">"Pandurang"</span><span class="token punctuation">,</span></span>
+<span class="line">  <span class="token string oneLine">"lname"</span><span class="token punctuation">:</span> <span class="token string oneLine">"Patil"</span><span class="token punctuation">,</span></span>
+<span class="line">  <span class="token string oneLine">"email"</span><span class="token punctuation">:</span> <span class="token string oneLine">"pandurangpatil@email.com"</span></span>
+<span class="line"><span class="token punctuation">}</span></span></pre>
+														<div class="ps-scrollbar-x-rail" style="left: 0px; bottom: 0px;">
+															<div class="ps-scrollbar-x" style="left: 0px; width: 0px;" tabindex="0"></div>
+														</div>
+														<pre></pre>
+														<div class="ps-scrollbar-y-rail" style="top: 0px; right: 0px;">
+															<div class="ps-scrollbar-y" style="top: 0px; height: 0px;" tabindex="0"></div>
+														</div>
+														<pre></pre>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div><!-- /Content -->
+							</div>
+							<div class="machineColumnResponse">
+								<!-- Title -->
+								<div class="row machineColumnTitle">
+									<h3 class="row machineColumnTitleText">Response</h3>
+								</div><!-- /Title -->
+								<!-- Content -->
+								<div class="machineColumnResponseContent">
+									<!-- Attributes -->
+									<div class="row machineColumnResponseAttributes hidden">
+										<div class="row attributesTitle">
+											<h3 class="row attributesTitleText">Attributes</h3>
+										</div>
+										<div class="row attributes"></div>
+										<div class="row attributesKit hidden"></div>
+									</div><!-- /Attributes -->
+									<!-- Description -->
+									<!-- /Description -->
+									<!-- Schema -->
+									<div class="row machineColumnResponseSchema"></div><!-- /Schema -->
+									<div class="response">
+										<!-- StatusCode -->
+										<div class="responseStatusCode">
+											200
+										</div><!-- /StatusCode -->
+										<div class="languageExample">
+											<div class="rawExampleContainer">
+												<div class="rawExample darkTheme" data-reactroot="">
+													<ul class="rawExampleSection rawExampleHeaders ps-container ps-theme-default" data-ps-id="d368bacb-0e22-b79a-117a-9cf1fe8a13bc">
+														<li style="list-style: none; display: inline">
+															<div class="rawExampleHeaderLabel">
+																<span>Headers</span>
+															</div>
+														</li>
+														<li class="rawExampleHeader"><span class="rawExampleHeaderKey">Content-Type</span><span class="rawExampleHeaderSeparator">:</span><span class="rawExampleHeaderValue">application/json</span></li>
+														<li style="list-style: none; display: inline">
+															<div class="ps-scrollbar-x-rail" style="left: 0px; bottom: 0px;">
+																<div class="ps-scrollbar-x" style="left: 0px; width: 0px;" tabindex="0"></div>
+															</div>
+															<div class="ps-scrollbar-y-rail" style="top: 0px; right: 0px;">
+																<div class="ps-scrollbar-y" style="top: 0px; height: 0px;" tabindex="0"></div>
+															</div>
+														</li>
+													</ul>
+													<div>
+														<div class="rawExampleHeaderLabel">
+															<span>Body</span>
+														</div>
+														<div class="rawExampleJsonSchemaContainer"></div>
+														<pre class="rawExampleSection rawExampleBody code darkTheme ps-container ps-theme-default" data-ps-id="2e80a393-0a80-38a9-2625-fdb7029d8f24"><span class="line"><span class="token punctuation">{</span></span>
+<span class="line">  <span class="token string oneLine">"id"</span><span class="token punctuation">:</span> <span class="token number">1</span><span class="token punctuation">,</span></span>
+<span class="line">  <span class="token string oneLine">"fname"</span><span class="token punctuation">:</span> <span class="token string oneLine">"Pandurang"</span><span class="token punctuation">,</span></span>
+<span class="line">  <span class="token string oneLine">"lname"</span><span class="token punctuation">:</span> <span class="token string oneLine">"Patil"</span><span class="token punctuation">,</span></span>
+<span class="line">  <span class="token string oneLine">"email"</span><span class="token punctuation">:</span> <span class="token string oneLine">"pandurangpatil@email.com"</span></span>
+<span class="line"><span class="token punctuation">}</span></span></pre>
+														<div class="ps-scrollbar-x-rail" style="left: 0px; bottom: 0px;">
+															<div class="ps-scrollbar-x" style="left: 0px; width: 0px;" tabindex="0"></div>
+														</div>
+														<pre></pre>
+														<div class="ps-scrollbar-y-rail" style="top: 0px; right: 0px;">
+															<div class="ps-scrollbar-y" style="top: 0px; height: 0px;" tabindex="0"></div>
+														</div>
+														<pre></pre>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div><!-- Content -->
+							</div>
+							<div class="machineColumnResponse">
+								<!-- Title -->
+								<div class="row machineColumnTitle">
+									<h3 class="row machineColumnTitleText">Response</h3>
+								</div><!-- /Title -->
+								<!-- Content -->
+								<div class="machineColumnResponseContent">
+									<!-- Attributes -->
+									<div class="row machineColumnResponseAttributes hidden">
+										<div class="row attributesTitle">
+											<h3 class="row attributesTitleText">Attributes</h3>
+										</div>
+										<div class="row attributes"></div>
+										<div class="row attributesKit hidden"></div>
+									</div><!-- /Attributes -->
+									<!-- Description -->
+									<!-- /Description -->
+									<!-- Schema -->
+									<div class="row machineColumnResponseSchema"></div><!-- /Schema -->
+									<div class="response">
+										<!-- StatusCode -->
+										<div class="responseStatusCode">
+											401
+										</div><!-- /StatusCode -->
+										<div class="languageExample">
+											<div class="rawExampleContainer">
+												<div class="rawExample darkTheme" data-reactroot="">
+													<ul class="rawExampleSection rawExampleHeaders ps-container ps-theme-default" data-ps-id="a6766253-f609-d840-cb17-52bb1dadcde1">
+														<li style="list-style: none; display: inline">
+															<div class="rawExampleHeaderLabel">
+																<span>Headers</span>
+															</div>
+														</li>
+														<li class="rawExampleHeader"><span class="rawExampleHeaderKey">Content-Type</span><span class="rawExampleHeaderSeparator">:</span><span class="rawExampleHeaderValue">application/json</span></li>
+														<li style="list-style: none; display: inline">
+															<div class="ps-scrollbar-x-rail" style="left: 0px; bottom: 0px;">
+																<div class="ps-scrollbar-x" style="left: 0px; width: 0px;" tabindex="0"></div>
+															</div>
+															<div class="ps-scrollbar-y-rail" style="top: 0px; right: 0px;">
+																<div class="ps-scrollbar-y" style="top: 0px; height: 0px;" tabindex="0"></div>
+															</div>
+														</li>
+													</ul>
+													<div>
+														<div class="rawExampleHeaderLabel">
+															<span>Body</span>
+														</div>
+														<div class="rawExampleJsonSchemaContainer"></div>
+														<pre class="rawExampleSection rawExampleBody code darkTheme ps-container ps-theme-default" data-ps-id="9406e934-bce1-3fd4-2173-7544e5f23faa"><span class="line"><span class="token punctuation">{</span></span>
+														<span class="line">  <span class="token string oneLine">"error"</span><span class="token punctuation">:</span> <span class="token string oneLine">"error.unauthorized"</span></span>
+														<span class="line"><span class="token punctuation">}</span></span></pre>
+														<div class="ps-scrollbar-x-rail" style="left: 0px; bottom: 0px;">
+															<div class="ps-scrollbar-x" style="left: 0px; width: 0px;" tabindex="0"></div>
+														</div>
+														<pre></pre>
+														<div class="ps-scrollbar-y-rail" style="top: 0px; right: 0px;">
+															<div class="ps-scrollbar-y" style="top: 0px; height: 0px;" tabindex="0"></div>
+														</div>
+														<pre></pre>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div><!-- Content -->
+							</div>
+						</div>
+					</div>
+					<div class="row machineColumnConsoles customScrollbar customScrollbarConsole hidden" style="width: 700px; height: 639px;">
+						<!-- BlankSlate -->
+						<div class="machineColumnBlankSlate">
+							<h3 class="blankSlateTitle">No action selected</h3>
+							<p class="blankSlateText">To try out Console, please select an action. E.g. select ‘<span class="blankSlateActionExample">List all users</span>’ from the left column.</p>
+							<div class="blankSlateLink">
+								<a class="blankSlateLinkText" href="https://help.apiary.io/tools/interactive-documentation/" target="_blank">Learn more about using the documentation.</a>
+							</div>
+						</div><!-- /BlankSlate -->
+					</div>
+				</div>
+			</div><!-- /MachineColumn -->
+		</div>
+	</div><!-- /Content -->
+	<!-- Loading -->
+	<div id="applicationLoading"></div><!-- /Loading -->
+	<!-- LoadingBar -->
+	<div class="hidden" id="applicationLoadingBarContainer">
+		<div id="applicationLoadingBar"></div>
+	</div><!-- LoadingBar -->
+    
+    	
+    <!-- Scripts -->
+    <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
+    <script src="js/popper.min.js"></script> <!-- Popper tooltip library for Bootstrap -->
+    <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
+    <script src="js/jquery.easing.1.3.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
+    <script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
+
+        <script>
+    	/*!
+ * IE10 viewport hack for Surface/desktop Windows 8 bug
+ * Copyright 2014-2017 The Bootstrap Authors
+ * Copyright 2014-2017 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+// See the Getting Started docs for more information:
+// https://getbootstrap.com/getting-started/#support-ie10-width
+
+		(function () {
+		  'use strict'
+
+		  if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+		    var msViewportStyle = document.createElement('style')
+		    msViewportStyle.appendChild(
+		      document.createTextNode(
+		        '@-ms-viewport{width:auto!important}'
+		      )
+		    )
+		    document.head.appendChild(msViewportStyle)
+		  }
+
+		}())
+    </script>
+</body>
+</html>
