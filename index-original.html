@@ -40,7 +40,7 @@
 <body>
 
 	<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-		<a class="navbar-brand" href="#">Aura API Documentation</a>
+		<a class="navbar-brand" href="#">Sangalo API Documentation</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
@@ -113,16 +113,16 @@
 									</div>
 									<div class="clearfix"></div>
 									<ol class="breadcrumb bg-light">
-										<li class="breadcrumb-item"><a href="#">mediapp</a></li>
-										<li class="breadcrumb-item"><a href="#">api</a></li>
+										<li class="breadcrumb-item"><a href="#">sangalo</a></li>
+										<li class="breadcrumb-item"><a href="#">home</a></li>
 										<li class="breadcrumb-item"><a href="#">views</a></li>
-										<li class="breadcrumb-item active">CreateApiViews</li>
+										<li class="breadcrumb-item active">UserRegisterView</li>
 									</ol>
 									<a href="#" class="d-block"><span class="text-dark">Console calls are routed via Sangalo</span><span class="float-right">Use browser&nbsp;<i class="fa fa-question-circle"></i></span></a>
 
 									<div class="">
 										<div class="api-url">
-											<span class="badge badge-dark d-inline-block">POST</span><code class="d-inline-block pl-2">http://localhost:8000/api/v1/user/signup/</code>
+											<span class="badge badge-dark d-inline-block">POST</span><code class="d-inline-block pl-2">/api/v1/register/</code>
 										</div>
 									</div>
 									<ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -180,9 +180,9 @@
 															<th>value</th>
 														</tr>
 														<tr>
-															<td>
-																email
-															</td>
+																<td>
+																	email
+																</td>
 																<td>
 																	Email id of user
 																</td>
@@ -193,6 +193,22 @@
 																</td>
 																<td>
 																	Create password for user
+																</td>
+														</tr>
+														<tr>
+																<td>
+																	mobile_number
+																</td>
+																<td>
+																	Phone number of user
+																</td>
+														</tr>
+														<tr>
+																<td>
+																	country
+																</td>
+																<td>
+																	User address
 																</td>
 														</tr>
 
@@ -230,7 +246,7 @@
 							<div class="card-header" id="headingTwo">
 								<h2 class="mb-0">
 									<button class="d-flex align-items-center justify-content-between btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-									List a User
+									List User
 										<span class="fa-stack fa-sm">
 											<i class="fas fa-circle fa-stack-2x"></i>
 											<i class="fas fa-chevron-down fa-stack-1x fa-inverse"></i>
@@ -245,16 +261,16 @@
 									</div>
 									<div class="clearfix"></div>
 									<ol class="breadcrumb bg-light">
-										<li class="breadcrumb-item"><a href="#">mediapp</a></li>
-										<li class="breadcrumb-item"><a href="#">api</a></li>
+										<li class="breadcrumb-item"><a href="#">sangalo</a></li>
+										<li class="breadcrumb-item"><a href="#">home</a></li>
 										<li class="breadcrumb-item"><a href="#">views</a></li>
-										<li class="breadcrumb-item active">ListApiView</li>
+										<li class="breadcrumb-item active">UserListView</li>
 									</ol>
 									<a href="#" class="d-block"><span class="text-dark">Console calls are routed via Sangalo</span><span class="float-right">Use browser&nbsp;<i class="fa fa-question-circle"></i></span></a>
 
 									<div class="">
 										<div class="api-url">
-											<span class="badge badge-dark d-inline-block">GET</span><code class="d-inline-block pl-2">http://localhost:8000/api/v1/user/list/userid</code>
+											<span class="badge badge-dark d-inline-block">GET</span><code class="d-inline-block pl-2">/api/v1/userlist/</code>
 										</div>
 									</div>
 									<ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -288,7 +304,7 @@
 													</tbody>
 												</table>
 												<div class="text-left">
-													<i>required url parameter = userid</i>
+
 													<button class="btn btn-block text-left"><i class="fas fa-plus"></i>&nbsp;<code>Add new parameters</code></button>
 
 												</div>
@@ -315,16 +331,19 @@
 
 									<div class="Content">
 										<strong>Response</strong><br>
-												{<br>
-    											"message": "success",<br>
-    											"code": 200,<br>
-    											"details": [<br>
-        															{<br>
-            														"id": 1,<br>
-            														"email": "admin@admin.com"<br>
-        															}<br>
-    																]<br>
-																	}<br>
+										[<br>
+										{<br>
+											"id": 1,<br>
+											"first_name": "",<br>
+											"last_name": "",<br>
+											"username": "test",<br>
+											"email": "test@user.com",<br>
+											"mobile_no": "9823670893",<br>
+											"verification_code": 7801,<br>
+											"is_verified": false,<br>
+											"is_active": true<br>
+											}<br>
+											]<br>
 									</div>
 									<!-- bottom div -->
 									<div class="btn btn-group">
@@ -345,8 +364,8 @@
 								</div>
 							</div>
 						</div>
-
-							<!-- update a user -->
+						<!--end user list-->
+							<!-- update a user password-->
 						<div class="card">
 								<div class="card-header" id="headingThree">
 									<h2 class="mb-0">
@@ -366,16 +385,16 @@
 										</div>
 										<div class="clearfix"></div>
 										<ol class="breadcrumb bg-light">
-											<li class="breadcrumb-item"><a href="#">mediapp</a></li>
-											<li class="breadcrumb-item"><a href="#">api</a></li>
+											<li class="breadcrumb-item"><a href="#">sangalo</a></li>
+											<li class="breadcrumb-item"><a href="#">home</a></li>
 											<li class="breadcrumb-item"><a href="#">views</a></li>
-											<li class="breadcrumb-item active">ChangePasswordView</li>
+											<li class="breadcrumb-item active">ChangePasswordAPIView</li>
 										</ol>
 										<a href="#" class="d-block"><span class="text-dark">Console calls are routed via Sangalo</span><span class="float-right">Use browser&nbsp;<i class="fa fa-question-circle"></i></span></a>
 
 										<div class="">
 											<div class="api-url">
-												<span class="badge badge-dark d-inline-block">PUT</span><code class="d-inline-block pl-2">http://localhost:8000/api/v1/user/changepassword/</code>
+												<span class="badge badge-dark d-inline-block">PUT</span><code class="d-inline-block pl-2">/api/v1/change-password/</code>
 											</div>
 										</div>
 										<ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -476,9 +495,301 @@
 									</div>
 								</div>
 							</div>
+							<!--end user password update-->
+							<!-- list a user -->
+						<div class="card">
+								<div class="card-header" id="headingCountry">
+									<h2 class="mb-0">
+										<button class="d-flex align-items-center justify-content-between btn btn-link collapsed" data-toggle="collapse" data-target="#collapseCountry" aria-expanded="false" aria-controls="collapseCountry">
+										Country Code
+											<span class="fa-stack fa-sm">
+												<i class="fas fa-circle fa-stack-2x"></i>
+												<i class="fas fa-chevron-down fa-stack-1x fa-inverse"></i>
+											</span>
+										</button>
+									</h2>
+								</div>
+								<div id="collapseCountry" class="collapse" aria-labelledby="headingCountry" data-parent="#accordion">
+									<div class="card-body">
+										<div class="float-right">
+											<button class="btn btn-outline-primary">Switch to example</button>
+										</div>
+										<div class="clearfix"></div>
+										<ol class="breadcrumb bg-light">
+											<li class="breadcrumb-item"><a href="#">sangalo</a></li>
+											<li class="breadcrumb-item"><a href="#">home</a></li>
+											<li class="breadcrumb-item"><a href="#">views</a></li>
+											<li class="breadcrumb-item active">StateList</li>
+										</ol>
+										<a href="#" class="d-block"><span class="text-dark">Console calls are routed via Sangalo</span><span class="float-right">Use browser&nbsp;<i class="fa fa-question-circle"></i></span></a>
 
+										<div class="">
+											<div class="api-url">
+												<span class="badge badge-dark d-inline-block">GET</span><code class="d-inline-block pl-2">/api/v1/countrycode/</code>
+											</div>
+										</div>
+										<ul class="nav nav-tabs" id="myTab" role="tablist">
+											<li class="nav-item">
+												<a aria-controls="Parameters" aria-selected="false" class="nav-link active" data-toggle="tab" href="#Parameters1" id="Parameters-tab" role="tab"><i class="fa fa-bell"></i>&nbsp;URL Parameters</a>
+											</li>
+											<li class="nav-item">
+												<a aria-controls="Headers" aria-selected="true" class="nav-link" data-toggle="tab" href="#Headers1" id="Headers-tab" role="tab"><i class="fa fa-newspaper"></i>&nbsp;Headers</a>
+											</li>
+											<li class="nav-item">
+												<a aria-controls="Body" aria-selected="false" class="nav-link" data-toggle="tab" href="#Body1" id="Body-tab" role="tab"><i class="fas fa-bullhorn"></i>&nbsp;Body</a>
+											</li>
+										</ul>
+										<div class="tab-content" id="myTabContent">
+											<div aria-labelledby="Parameters-tab" class="tab-pane fade show active" id="Parameters1" role="tabpanel">
+												<div class="col-md-12 py-3">
+													<table class="table table-responsive table-light">
+														<tbody>
+															<tr>
+																<td>
+																	<form action="#" method="post">
+																		<div class="form-check-inline">
+																			<input type="checkbox" name="checkbox" id="checkbox" class="form-check-input" />
+																		</div>
+																	</form>
+																</td>
+																<td>Since</td>
+																<td>Null</td>
+																<td><a class="text-danger" href="#!"><i class="fas fa-trash-alt"></i></a></td>
+															</tr>
+														</tbody>
+													</table>
+													<div class="text-left">
 
+														<button class="btn btn-block text-left"><i class="fas fa-plus"></i>&nbsp;<code>Add new parameters</code></button>
+
+													</div>
+												</div>
+											</div>
+											<div aria-labelledby="Headers-tab" class="tab-pane fade" id="Headers1" role="tabpanel">
+												<div class="col-md-12 py-3">
+													<div class="text-left">
+														<button class="btn btn-block text-left"><i class="fas fa-plus"></i>&nbsp;<code>Add new header</code></button>
+														Content-Type:application/json
+													</div>
+												</div>
+											</div>
+											<div aria-labelledby="Body-tab" class="tab-pane fade" id="Body1" role="tabpanel">
+												<div class="col-md-12 py-3">
+													<form action="#" method="post">
+														<div class="form-group">
+															<textarea cols="40" rows="8" name="textarea" id="textarea" class="form-control"></textarea>
+														</div>
+													</form>
+												</div>
+											</div>
+										</div>
+
+										<div class="Content">
+											<strong>Response</strong><br>
+											{<br>
+    								"code": 200,<br>
+    								"status": "SUCCESS",<br>
+    								"message": "Successfully Retrieved.",<br>
+  									"details": [<br>
+    										{<br>
+        									"id": 1,<br>
+        									"state_name": "state of nepal"<br>
+    										},<br>
+    										{<br>
+        									"id": 2,<br>
+        									"state_name": "second state of nepal"<br>
+    									}<br>
+											]<br>
+										}<br>
+										</div>
+										<!-- bottom div -->
+										<div class="btn btn-group">
+											<!-- Example single danger button -->
+											<button class="btn btn-success-transparent">Show Code Example</button>
+											<div class="btn-group">
+												<button type="button" class="btn btn-danger btn-custom dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+													Production
+												</button>
+												<div class="dropdown-menu">
+													<a class="dropdown-item" href="#">Mock Server</a>
+													<a class="dropdown-item" href="#">Debugging Proxy</a>
+													<a class="dropdown-item" href="#">Production</a>
+												</div>
+											</div>
+											<button type="button" class="btn btn-success btn-custom">Call Resource</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!--upto here-->
+					<!--for state-->
+					<div class="card">
+						<div class="card-header" id="headingState">
+							<h2 class="mb-0">
+								<button class="d-flex align-items-center justify-content-between btn btn-link collapsed" data-toggle="collapse" data-target="#collapseState" aria-expanded="false" aria-controls="collapseState">
+								State
+									<span class="fa-stack fa-sm">
+										<i class="fas fa-circle fa-stack-2x"></i>
+										<i class="fas fa-chevron-down fa-stack-1x fa-inverse"></i>
+									</span>
+								</button>
+							</h2>
+						</div>
+						<div id="collapseState" class="collapse" aria-labelledby="headingState" data-parent="#accordion">
+							<div class="card-body">
+								<div class="float-right">
+									<button class="btn btn-outline-primary">Switch to example</button>
+								</div>
+								<div class="clearfix"></div>
+								<ol class="breadcrumb bg-light">
+									<li class="breadcrumb-item"><a href="#">sangalo</a></li>
+									<li class="breadcrumb-item"><a href="#">home</a></li>
+									<li class="breadcrumb-item"><a href="#">views</a></li>
+									<li class="breadcrumb-item active">StateList</li>
+								</ol>
+								<a href="#" class="d-block"><span class="text-dark">Console calls are routed via Sangalo</span><span class="float-right">Use browser&nbsp;<i class="fa fa-question-circle"></i></span></a>
+
+								<div class="">
+									<div class="api-url">
+										<span class="badge badge-dark d-inline-block">GET</span><code class="d-inline-block pl-2">/api/v1/statename/</code>
+									</div>
+								</div>
+								<ul class="nav nav-tabs" id="myTab" role="tablist">
+									<li class="nav-item">
+										<a aria-controls="Parameters" aria-selected="false" class="nav-link active" data-toggle="tab" href="#Parameters1" id="Parameters-tab" role="tab"><i class="fa fa-bell"></i>&nbsp;URL Parameters</a>
+									</li>
+									<li class="nav-item">
+										<a aria-controls="Headers" aria-selected="true" class="nav-link" data-toggle="tab" href="#Headers1" id="Headers-tab" role="tab"><i class="fa fa-newspaper"></i>&nbsp;Headers</a>
+									</li>
+									<li class="nav-item">
+										<a aria-controls="Body" aria-selected="false" class="nav-link" data-toggle="tab" href="#Body1" id="Body-tab" role="tab"><i class="fas fa-bullhorn"></i>&nbsp;Body</a>
+									</li>
+
+								</ul>
+								<div class="tab-content" id="myTabContent">
+									<div aria-labelledby="Parameters-tab" class="tab-pane fade show active" id="Parameters1" role="tabpanel">
+										<div class="col-md-12 py-3">
+											<table class="table table-responsive table-light">
+												<tbody>
+													<tr>
+														<td>
+															<form action="#" method="post">
+																<div class="form-check-inline">
+																	<input type="checkbox" name="checkbox" id="checkbox" class="form-check-input" />
+																</div>
+															</form>
+														</td>
+														<td>Since</td>
+														<td>Null</td>
+														<td><a class="text-danger" href="#!"><i class="fas fa-trash-alt"></i></a></td>
+													</tr>
+												</tbody>
+											</table>
+											<div class="text-left">
+
+												<button class="btn btn-block text-left"><i class="fas fa-plus"></i>&nbsp;<code>Add new parameters</code></button>
+
+											</div>
+										</div>
+									</div>
+									<div aria-labelledby="Headers-tab" class="tab-pane fade" id="Headers1" role="tabpanel">
+										<div class="col-md-12 py-3">
+											<div class="text-left">
+												<button class="btn btn-block text-left"><i class="fas fa-plus"></i>&nbsp;<code>Add new header</code></button>
+												Content-Type:application/json
+											</div>
+										</div>
+									</div>
+									<div aria-labelledby="Body-tab" class="tab-pane fade" id="Body" role="tabpanel">
+											<div class="col-md-12 py-3">
+												<form action="#" method="post">
+													<div class="form-group">
+														<textarea cols="40" rows="8" name="textarea" id="textarea" class="form-control">
+
+													<table border="1">
+														<tr>
+															<th>key</th>
+															<th>value</th>
+														</tr>
+														<tr>
+																<td>
+																	email
+																</td>
+																<td>
+																	Email id of user
+																</td>
+														</tr>
+														<tr>
+																<td>
+																	password
+																</td>
+																<td>
+																	Create password for user
+																</td>
+														</tr>
+														<tr>
+																<td>
+																	mobile_number
+																</td>
+																<td>
+																	Phone number of user
+																</td>
+														</tr>
+														<tr>
+																<td>
+																	country
+																</td>
+																<td>
+																	User address
+																</td>
+														</tr>
+
+													</table>
+												</div>
+											</form>
+										</div>
+									</div>
+								</div>
+
+								<!--<div class="Content">
+									<strong>Response</strong><br>
+									{<br>
+								"code": 200,<br>
+								"status": "SUCCESS",<br>
+								"message": "Successfully Retrieved.",<br>
+								"details": [<br>
+										{<br>
+											"id": 1,<br>
+											"state_name": "state of nepal"<br>
+										},<br>
+										{<br>
+											"id": 2,<br>
+											"state_name": "second state of nepal"<br>
+									}<br>
+									]<br>
+								}<br>
+							</div>-->
+								<!-- bottom div -->
+								<div class="btn btn-group">
+									<!-- Example single danger button -->
+									<button class="btn btn-success-transparent">Show Code Example</button>
+									<div class="btn-group">
+										<button type="button" class="btn btn-danger btn-custom dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											Production
+										</button>
+										<div class="dropdown-menu">
+											<a class="dropdown-item" href="#">Mock Server</a>
+											<a class="dropdown-item" href="#">Debugging Proxy</a>
+											<a class="dropdown-item" href="#">Production</a>
+										</div>
+									</div>
+									<button type="button" class="btn btn-success btn-custom">Call Resource</button>
+								</div>
+							</div>
+						</div>
 					</div>
+					</div>
+					<!--upto here-->
 				<!-- end card for user-->
 				<!-- card start for data -->
 					<div id="accordion" class="myaccordion">
